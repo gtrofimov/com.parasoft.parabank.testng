@@ -38,6 +38,7 @@ public class BillPay {
 		opts.setExperimentalOption("prefs", prefs);
 		opts.addArguments("--start-maximized");
 		//opts.addArguments("--incognito");
+		opts.addArguments("--headless");
 		opts.addArguments("--enable-strict-powerful-feature-restrictions");
 		driver = new ChromeDriver(opts);
 		driver.manage().window().maximize();
