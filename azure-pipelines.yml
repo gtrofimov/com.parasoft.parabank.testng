@@ -6,8 +6,11 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+
+pool: 
+ name: Default
+ demands:
+  - Agent.Name -equals SPIDERMAN
 
 steps:
 - script: echo Hello, world!
