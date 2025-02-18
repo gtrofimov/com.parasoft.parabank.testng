@@ -23,14 +23,15 @@ steps:
       echo "Run Selenium Tests"
       :: mvn clean test
       mvn clean test -DargLine=-javaagent:"$(selenic-home)\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
-      java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report/report.html
+      java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report.html
 
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/junitreports/TEST-*.xml'
-    
+
 - task: PublishHtmlReport@1
+  displayName: 'Publish HTML Report'
   inputs:
-    tabName: 'Selenic HMTL Report'
-    reportDir: 'selenic-report'
+    tabName: 'Selenic HTML Report'
+    reportDir: 'selenic-report.html'
