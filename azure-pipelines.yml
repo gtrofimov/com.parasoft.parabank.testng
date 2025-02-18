@@ -16,5 +16,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo "Run Selenium Tests"      
+      echo "Run Selenium Tests"
+      :: mvn clean test
       mvn clean test -DargLine=-javaagent:"C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
