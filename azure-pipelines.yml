@@ -19,3 +19,9 @@ steps:
       echo "Run Selenium Tests"
       :: mvn clean test
       mvn clean test -DargLine=-javaagent:"C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
+      java -jar "C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_analyzer.jar"
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/junitreports/TEST-*.xml'
