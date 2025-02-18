@@ -1,0 +1,591 @@
+{
+  "sessionCreationTime" : "2025-02-18T11:25:04-0800",
+  "analyzerSettings" : { },
+  "scenarios" : [ {
+    "class" : "com.parabank.BillPay",
+    "tests" : [ {
+      "name" : "testFarmersbillpay",
+      "timeMetaData" : {
+        "startTime" : 1739906706063,
+        "duration" : 8264
+      },
+      "performanceStatistics" : {
+        "averageDuration" : 11194,
+        "runCount" : 23
+      },
+      "actions" : [ {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "xpath",
+            "value" : "//div[1]/input"
+          },
+          "resultElements" : [ {
+            "locator" : "xpath",
+            "term" : "//div[1]/input",
+            "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[1]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankWelcomeOnlineBankingPage",
+            "fieldName" : "text1"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "xpath",
+              "term" : "//div[1]/input",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[1]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "john",
+            "contextElement" : {
+              "locator" : "xpath",
+              "term" : "//div[1]/input",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[1]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "password"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "password",
+            "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankWelcomeOnlineBankingPage",
+            "fieldName" : "password"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "password",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "demo",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "password",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "css selector",
+            "value" : "input[value='Log In']"
+          },
+          "resultElements" : [ {
+            "locator" : "css selector",
+            "term" : "input[value='Log In']",
+            "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[3]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankWelcomeOnlineBankingPage",
+            "fieldName" : "logInSubmit"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "css selector",
+              "term" : "input[value='Log In']",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/div/form/div[3]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "link text",
+            "value" : "Bill Pay"
+          },
+          "resultElements" : [ {
+            "locator" : "link text",
+            "term" : "Bill Pay",
+            "xpath" : "/html/body/div[1]/div[3]/div[1]/ul/li[4]/a"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankErrorPage",
+            "fieldName" : "billPayLink"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "link text",
+              "term" : "Bill Pay",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/ul/li[4]/a"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.name"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.name",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[1]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeNameText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.name",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[1]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "John",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.name",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[1]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.address.street"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.address.street",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[2]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeAddressStreetText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.street",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[2]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "Demo",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.street",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[2]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.address.city"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.address.city",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[3]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeAddressCityText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.city",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[3]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "Beverly Hills",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.city",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[3]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.address.state"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.address.state",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[4]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeAddressStateText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.state",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[4]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "CA",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.state",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[4]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.address.zipCode"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.address.zipCode",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[5]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeAddressZipCodeText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.zipCode",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[5]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "90210",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.address.zipCode",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[5]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.phoneNumber"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.phoneNumber",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[6]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeePhoneNumberText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.phoneNumber",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[6]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "1234567890",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.phoneNumber",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[6]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "payee.accountNumber"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "payee.accountNumber",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[8]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "payeeAccountNumberText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.accountNumber",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[8]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "1234",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "payee.accountNumber",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[8]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "verifyAccount"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "verifyAccount",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[9]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "verifyAccountText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "verifyAccount",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[9]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "1234",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "verifyAccount",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[9]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "amount"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "amount",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[11]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "amountText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "amount",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[11]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "10.00",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "amount",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[11]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "css selector",
+            "value" : "input[value='Send Payment']"
+          },
+          "resultElements" : [ {
+            "locator" : "css selector",
+            "term" : "input[value='Send Payment']",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[14]/td[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPayPage",
+            "fieldName" : "sendPaymentSubmit"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "css selector",
+              "term" : "input[value='Send Payment']",
+              "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[14]/td[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "id",
+            "value" : "amount"
+          },
+          "resultElements" : [ {
+            "locator" : "id",
+            "term" : "amount",
+            "xpath" : "/html/body/div[1]/div[3]/div[2]/div/div[2]/p[1]/span[2]"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPaymentCompletePage",
+            "fieldName" : "amountField"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "link text",
+            "value" : "Log Out"
+          },
+          "resultElements" : [ {
+            "locator" : "link text",
+            "term" : "Log Out",
+            "xpath" : "/html/body/div[1]/div[3]/div[1]/ul/li[8]/a"
+          } ],
+          "codeMetaData" : {
+            "className" : "com.parabank.page.ParaBankBillPaymentCompletePage",
+            "fieldName" : "logOutLink"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "link text",
+              "term" : "Log Out",
+              "xpath" : "/html/body/div[1]/div[3]/div[1]/ul/li[8]/a"
+            }
+          }
+        }
+      } ],
+      "result" : {
+        "status" : "passed"
+      }
+    } ]
+  } ]
+}
