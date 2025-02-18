@@ -23,7 +23,9 @@ steps:
       echo "Run Selenium Tests"
       :: mvn clean test
       mvn clean test -DargLine=-javaagent:"$(selenic-home)\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
-      java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report.html
+      echo "Run Selenic Analyzer"
+      echo java -version
+      echo java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report.html
 
 - task: PublishTestResults@2
   inputs:
