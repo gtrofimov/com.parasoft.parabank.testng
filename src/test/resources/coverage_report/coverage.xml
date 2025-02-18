@@ -1,0 +1,1765 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" hasViols="false" id="1629606239283" lang="en_US" climode="true" time="2021-08-21T21:23:17-07:00" machine="adele" user="${user_name}" toolName="TestImpactAnalysis" execEnv="win32_x86_64" toolId="testimpact" toolVer="10.5.2.20210818B1191" toolDispName="TestImpactAnalysis" buildId="2021-08-21" tag="${scontrol_branch}-win32_x86_64">
+	<TestConfig machine="adele" pseudoUrl="" name="" user="whaaker" />
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1" />
+	</VersionInfos>
+	<Repositories />
+	<Locations>
+		<Loc locRef="1" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Account$AccountType.class" classId="1437111073" crc="3471341649" hash="-1812654586" classQName="com.parasoft.parabank.domain.Account$AccountType" />
+		<Loc locRef="2" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Account.class" classId="-183642146" crc="2629124590" hash="1685845572" classQName="com.parasoft.parabank.domain.Account" />
+		<Loc locRef="3" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Address.class" classId="-154015323" crc="2534434375" hash="885400960" classQName="com.parasoft.parabank.domain.Address" />
+		<Loc locRef="4" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/BillPayResult.class" classId="-730767473" crc="982248245" hash="1774151408" classQName="com.parasoft.parabank.domain.BillPayResult" />
+		<Loc locRef="5" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Customer.class" classId="1345382477" crc="3725468189" hash="516527011" classQName="com.parasoft.parabank.domain.Customer" />
+		<Loc locRef="6" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/News.class" classId="-1284603198" crc="311440329" hash="-411276963" classQName="com.parasoft.parabank.domain.News" />
+		<Loc locRef="7" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Payee.class" classId="-1166264007" crc="1834748692" hash="41451452" classQName="com.parasoft.parabank.domain.Payee" />
+		<Loc locRef="8" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/Transaction.class" classId="-726999025" crc="1213938539" hash="-2020547072" classQName="com.parasoft.parabank.domain.Transaction" />
+		<Loc locRef="9" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/util/AccessModeController.class" classId="1988462228" crc="3884574101" hash="-282070463" classQName="com.parasoft.parabank.util.AccessModeController" />
+		<Loc locRef="10" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/util/ParaBankBeanPostProcessor.class" classId="-1561012395" crc="75474946" hash="-1595509464" classQName="com.parasoft.parabank.util.ParaBankBeanPostProcessor" />
+		<Loc locRef="11" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/util/SessionParamArgumentResolver.class" classId="-2090486517" crc="2311054831" hash="-1760486712" classQName="com.parasoft.parabank.util.SessionParamArgumentResolver" />
+		<Loc locRef="12" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/util/Util.class" classId="1074277491" crc="1031708921" hash="-1050017194" classQName="com.parasoft.parabank.util.Util" />
+		<Loc locRef="13" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/TemplateViewResolver.class" classId="-1838289796" crc="4028572576" hash="-1515785658" classQName="com.parasoft.parabank.web.TemplateViewResolver" />
+		<Loc locRef="14" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/UserSession.class" classId="-967823020" crc="1748211993" hash="-1594325589" classQName="com.parasoft.parabank.web.UserSession" />
+		<Loc locRef="15" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcAccountDao$AccountMapper.class" classId="437617765" crc="4020206692" hash="-118112431" classQName="com.parasoft.parabank.dao.jdbc.JdbcAccountDao$AccountMapper" />
+		<Loc locRef="16" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcAccountDao.class" classId="-1518205285" crc="262698216" hash="-1825055792" classQName="com.parasoft.parabank.dao.jdbc.JdbcAccountDao" />
+		<Loc locRef="17" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcAdminDao.class" classId="1984300985" crc="812146640" hash="-56816776" classQName="com.parasoft.parabank.dao.jdbc.JdbcAdminDao" />
+		<Loc locRef="18" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcCustomerDao$CustomerMapper.class" classId="-754084827" crc="3380559394" hash="908523949" classQName="com.parasoft.parabank.dao.jdbc.JdbcCustomerDao$CustomerMapper" />
+		<Loc locRef="19" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcCustomerDao.class" classId="1837487390" crc="1794633460" hash="-608837607" classQName="com.parasoft.parabank.dao.jdbc.JdbcCustomerDao" />
+		<Loc locRef="20" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcNewsDao$NewsMapper.class" classId="-1780851825" crc="267593343" hash="-1711281738" classQName="com.parasoft.parabank.dao.jdbc.JdbcNewsDao$NewsMapper" />
+		<Loc locRef="21" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcNewsDao.class" classId="-829579511" crc="2321381875" hash="70892394" classQName="com.parasoft.parabank.dao.jdbc.JdbcNewsDao" />
+		<Loc locRef="22" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcSequenceDao.class" classId="-1490637221" crc="3517402305" hash="-137052534" classQName="com.parasoft.parabank.dao.jdbc.JdbcSequenceDao" />
+		<Loc locRef="23" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/dao/jdbc/JdbcTransactionDao.class" classId="762775882" crc="286274735" hash="799134362" classQName="com.parasoft.parabank.dao.jdbc.JdbcTransactionDao" />
+		<Loc locRef="24" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/util/NewsUtil.class" classId="970283539" crc="449620044" hash="1575202869" classQName="com.parasoft.parabank.domain.util.NewsUtil" />
+		<Loc locRef="25" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/validator/BillPayFormValidator.class" classId="1780397849" crc="2120176740" hash="-1554703584" classQName="com.parasoft.parabank.domain.validator.BillPayFormValidator" />
+		<Loc locRef="26" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/validator/TransferFormValidator.class" classId="851914871" crc="1118181677" hash="-295164557" classQName="com.parasoft.parabank.domain.validator.TransferFormValidator" />
+		<Loc locRef="27" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/AbstractBankController.class" classId="-228683754" crc="1670068462" hash="-1710906628" classQName="com.parasoft.parabank.web.controller.AbstractBankController" />
+		<Loc locRef="28" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/AbstractValidatingBankController.class" classId="-62600759" crc="3730299652" hash="2062332994" classQName="com.parasoft.parabank.web.controller.AbstractValidatingBankController" />
+		<Loc locRef="29" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/AccountsOverviewController.class" classId="1405711063" crc="422702107" hash="493833555" classQName="com.parasoft.parabank.web.controller.AccountsOverviewController" />
+		<Loc locRef="30" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/BillPayController.class" classId="818608065" crc="474060411" hash="-2096928901" classQName="com.parasoft.parabank.web.controller.BillPayController" />
+		<Loc locRef="31" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/ErrorController.class" classId="-1402205464" crc="655931694" hash="534903536" classQName="com.parasoft.parabank.web.controller.ErrorController" />
+		<Loc locRef="32" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/IndexController.class" classId="-1314656974" crc="2641150947" hash="-1925908111" classQName="com.parasoft.parabank.web.controller.IndexController" />
+		<Loc locRef="33" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/LoginController.class" classId="-1166761207" crc="211608979" hash="1449985967" classQName="com.parasoft.parabank.web.controller.LoginController" />
+		<Loc locRef="34" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/LogoutController.class" classId="2017915426" crc="974614056" hash="1917973422" classQName="com.parasoft.parabank.web.controller.LogoutController" />
+		<Loc locRef="35" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/RestServiceProxyController.class" classId="-806971259" crc="2478558513" hash="359806690" classQName="com.parasoft.parabank.web.controller.RestServiceProxyController" />
+		<Loc locRef="36" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/controller/TransferController.class" classId="1890707523" crc="284117032" hash="-1009960634" classQName="com.parasoft.parabank.web.controller.TransferController" />
+		<Loc locRef="37" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/form/BillPayForm.class" classId="-220953839" crc="2431223584" hash="-27865282" classQName="com.parasoft.parabank.web.form.BillPayForm" />
+		<Loc locRef="38" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/web/form/TransferForm.class" classId="-198867645" crc="2860108617" hash="1347884995" classQName="com.parasoft.parabank.web.form.TransferForm" />
+		<Loc locRef="39" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/logic/impl/AdminManagerImpl.class" classId="-1139206099" crc="1985784973" hash="-750804505" classQName="com.parasoft.parabank.domain.logic.impl.AdminManagerImpl" />
+		<Loc locRef="40" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/logic/impl/BankManagerImpl.class" classId="-1534477790" crc="3121417649" hash="-783338242" classQName="com.parasoft.parabank.domain.logic.impl.BankManagerImpl" />
+		<Loc locRef="41" uri="file://adele/C:/root/WEB-INF/classes/com/parasoft/parabank/domain/logic/impl/NewsManagerImpl.class" classId="41042219" crc="1443052308" hash="-663021072" classQName="com.parasoft.parabank.domain.logic.impl.NewsManagerImpl" />
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="com.parasoft.parabank.tests.ADummyTest#testDummy" />
+		<Test testRef="2" id="com.parasoft.parabank.tests.BillPayTest#testBillPay1" />
+		<Test testRef="3" id="com.parasoft.parabank.tests.TransferFundsTest#testParabank_Transfer_Funds" />
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="Account$AccountType.class#Account$AccountType" name="Account$AccountType">
+					<Item itemRef="2" id="Account$AccountType.class#Account$AccountType#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="3" id="Account$AccountType.class#Account$AccountType#&lt;init>#(Ljava/lang/String;IZ)V" name="Account$AccountType( java.lang.String, int, boolean )" />
+					<Item itemRef="4" id="Account$AccountType.class#Account$AccountType#isInternal#()Z" name="isInternal()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21 22" hashes="0 0" />
+				<StatCvg itemRef="3" elems="26 27 28" hashes="0 0 0" />
+				<StatCvg itemRef="4" elems="31" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="Account.class#Account" name="Account">
+					<Item itemRef="2" id="Account.class#Account#getBalance#()Ljava/math/BigDecimal;" name="getBalance()" />
+					<Item itemRef="3" id="Account.class#Account#setType#(I)V" name="setType( int )" />
+					<Item itemRef="4" id="Account.class#Account#getType#()Lcom/parasoft/parabank/domain/Account$AccountType;" name="getType()" />
+					<Item itemRef="5" id="Account.class#Account#credit#(Ljava/math/BigDecimal;)V" name="credit( java.math.BigDecimal )" />
+					<Item itemRef="6" id="Account.class#Account#getCustomerId#()I" name="getCustomerId()" />
+					<Item itemRef="7" id="Account.class#Account#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="8" id="Account.class#Account#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="9" id="Account.class#Account#getId#()I" name="getId()" />
+					<Item itemRef="10" id="Account.class#Account#hashCode#()I" name="hashCode()" />
+					<Item itemRef="11" id="Account.class#Account#setBalance#(Ljava/math/BigDecimal;)V" name="setBalance( java.math.BigDecimal )" />
+					<Item itemRef="12" id="Account.class#Account#&lt;init>#()V" name="Account()" />
+					<Item itemRef="13" id="Account.class#Account#getIntType#()I" name="getIntType()" />
+					<Item itemRef="14" id="Account.class#Account#setType#(Lcom/parasoft/parabank/domain/Account$AccountType;)V" name="setType( com.parasoft.parabank.domain.Account$AccountType )" />
+					<Item itemRef="15" id="Account.class#Account#getAvailableBalance#()Ljava/math/BigDecimal;" name="getAvailableBalance()" />
+					<Item itemRef="16" id="Account.class#Account#setId#(I)V" name="setId( int )" />
+					<Item itemRef="17" id="Account.class#Account#readFrom#(Lcom/google/gson/JsonObject;)Lcom/parasoft/parabank/domain/Account;" name="readFrom( com.google.gson.JsonObject )" />
+					<Item itemRef="18" id="Account.class#Account#setCustomerId#(I)V" name="setCustomerId( int )" />
+					<Item itemRef="19" id="Account.class#Account#debit#(Ljava/math/BigDecimal;)V" name="debit( java.math.BigDecimal )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="79" hashes="0" />
+				<StatCvg itemRef="3" elems="133 134" hashes="0 0" />
+				<StatCvg itemRef="4" elems="100" hashes="0" />
+				<StatCvg itemRef="5" elems="53 54" hashes="0 0" />
+				<StatCvg itemRef="6" elems="83" hashes="0" />
+				<StatCvg itemRef="7" elems="138" hashes="0" />
+				<StatCvg itemRef="8" elems="62 63 65 66 68 69 70" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="87" hashes="0" />
+				<StatCvg itemRef="10" elems="105 106 107 108 109 110 111" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="11" elems="115 116" hashes="0 0" />
+				<StatCvg itemRef="12" elems="19" hashes="0" />
+				<StatCvg itemRef="13" elems="92 93 95" hashes="0 0 0" />
+				<StatCvg itemRef="14" elems="128 129" hashes="0 0" />
+				<StatCvg itemRef="15" elems="75" hashes="0" />
+				<StatCvg itemRef="16" elems="123 124" hashes="0 0" />
+				<StatCvg itemRef="17" elems="36 37 38 39 40 41" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="18" elems="119 120" hashes="0 0" />
+				<StatCvg itemRef="19" elems="57 58" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="3 2" elemRefs="92 95" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="133 134" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3 2" elemRefs="115 116" />
+				</DynCvg>
+				<DynCvg itemRef="18">
+					<CtxCvg testRefs="3 2" elemRefs="119 120" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="3 2" elemRefs="75" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="3 2" elemRefs="19" />
+				</DynCvg>
+				<DynCvg itemRef="19">
+					<CtxCvg testRefs="3 2" elemRefs="57 58" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3" elemRefs="53 54" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="100" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="79" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3 2" elemRefs="83" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="3 2" elemRefs="87" />
+				</DynCvg>
+				<DynCvg itemRef="16">
+					<CtxCvg testRefs="3 2" elemRefs="123 124" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="Address.class#Address" name="Address">
+					<Item itemRef="2" id="Address.class#Address#getState#()Ljava/lang/String;" name="getState()" />
+					<Item itemRef="3" id="Address.class#Address#setZipCode#(Ljava/lang/String;)V" name="setZipCode( java.lang.String )" />
+					<Item itemRef="4" id="Address.class#Address#getStreet#()Ljava/lang/String;" name="getStreet()" />
+					<Item itemRef="5" id="Address.class#Address#getZipCode#()Ljava/lang/String;" name="getZipCode()" />
+					<Item itemRef="6" id="Address.class#Address#setStreet#(Ljava/lang/String;)V" name="setStreet( java.lang.String )" />
+					<Item itemRef="7" id="Address.class#Address#getCity#()Ljava/lang/String;" name="getCity()" />
+					<Item itemRef="8" id="Address.class#Address#hashCode#()I" name="hashCode()" />
+					<Item itemRef="9" id="Address.class#Address#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="10" id="Address.class#Address#setState#(Ljava/lang/String;)V" name="setState( java.lang.String )" />
+					<Item itemRef="11" id="Address.class#Address#&lt;init>#()V" name="Address()" />
+					<Item itemRef="12" id="Address.class#Address#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="13" id="Address.class#Address#setCity#(Ljava/lang/String;)V" name="setCity( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="34" hashes="0" />
+				<StatCvg itemRef="3" elems="46 47" hashes="0 0" />
+				<StatCvg itemRef="4" elems="18" hashes="0" />
+				<StatCvg itemRef="5" elems="42" hashes="0" />
+				<StatCvg itemRef="6" elems="22 23" hashes="0 0" />
+				<StatCvg itemRef="7" elems="26" hashes="0" />
+				<StatCvg itemRef="8" elems="51 52 53 54 55 56 57" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="77" hashes="0" />
+				<StatCvg itemRef="10" elems="38 39" hashes="0 0" />
+				<StatCvg itemRef="11" elems="11" hashes="0" />
+				<StatCvg itemRef="12" elems="62 63 65 66 68 69 70 71 72" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="13" elems="30 31" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3 2" elemRefs="11" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="46 47" />
+				</DynCvg>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="3 2" elemRefs="30 31" />
+				</DynCvg>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="3 2" elemRefs="38 39" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="3 2" elemRefs="77" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3 2" elemRefs="22 23" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="BillPayResult.class#BillPayResult" name="BillPayResult">
+					<Item itemRef="2" id="BillPayResult.class#BillPayResult#getAccountId#()I" name="getAccountId()" />
+					<Item itemRef="3" id="BillPayResult.class#BillPayResult#setAccountId#(I)V" name="setAccountId( int )" />
+					<Item itemRef="4" id="BillPayResult.class#BillPayResult#getPayeeName#()Ljava/lang/String;" name="getPayeeName()" />
+					<Item itemRef="5" id="BillPayResult.class#BillPayResult#&lt;init>#(ILjava/math/BigDecimal;Ljava/lang/String;)V" name="BillPayResult( int, java.math.BigDecimal, java.lang.String )" />
+					<Item itemRef="6" id="BillPayResult.class#BillPayResult#getAmount#()Ljava/math/BigDecimal;" name="getAmount()" />
+					<Item itemRef="7" id="BillPayResult.class#BillPayResult#setAmount#(Ljava/math/BigDecimal;)V" name="setAmount( java.math.BigDecimal )" />
+					<Item itemRef="8" id="BillPayResult.class#BillPayResult#&lt;init>#()V" name="BillPayResult()" />
+					<Item itemRef="9" id="BillPayResult.class#BillPayResult#setPayeeName#(Ljava/lang/String;)V" name="setPayeeName( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="48" hashes="0" />
+				<StatCvg itemRef="3" elems="52 53" hashes="0 0" />
+				<StatCvg itemRef="4" elems="40" hashes="0" />
+				<StatCvg itemRef="5" elems="25 26 27 28 29" hashes="0 0 0 0 0" />
+				<StatCvg itemRef="6" elems="32" hashes="0" />
+				<StatCvg itemRef="7" elems="36 37" hashes="0 0" />
+				<StatCvg itemRef="8" elems="23" hashes="0" />
+				<StatCvg itemRef="9" elems="44 45" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="2" elemRefs="48" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="2" elemRefs="25 26 27 28 29" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="2" elemRefs="32" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="2" elemRefs="40" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="5">
+			<Stats>
+				<Item itemRef="1" id="Customer.class#Customer" name="Customer">
+					<Item itemRef="2" id="Customer.class#Customer#&lt;init>#()V" name="Customer()" />
+					<Item itemRef="3" id="Customer.class#Customer#getUsername#()Ljava/lang/String;" name="getUsername()" />
+					<Item itemRef="4" id="Customer.class#Customer#setId#(I)V" name="setId( int )" />
+					<Item itemRef="5" id="Customer.class#Customer#getLastName#()Ljava/lang/String;" name="getLastName()" />
+					<Item itemRef="6" id="Customer.class#Customer#getPassword#()Ljava/lang/String;" name="getPassword()" />
+					<Item itemRef="7" id="Customer.class#Customer#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="8" id="Customer.class#Customer#setSsn#(Ljava/lang/String;)V" name="setSsn( java.lang.String )" />
+					<Item itemRef="9" id="Customer.class#Customer#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="10" id="Customer.class#Customer#getPhoneNumber#()Ljava/lang/String;" name="getPhoneNumber()" />
+					<Item itemRef="11" id="Customer.class#Customer#setAddress#(Lcom/parasoft/parabank/domain/Address;)V" name="setAddress( com.parasoft.parabank.domain.Address )" />
+					<Item itemRef="12" id="Customer.class#Customer#getAddress#()Lcom/parasoft/parabank/domain/Address;" name="getAddress()" />
+					<Item itemRef="13" id="Customer.class#Customer#getSsn#()Ljava/lang/String;" name="getSsn()" />
+					<Item itemRef="14" id="Customer.class#Customer#setPhoneNumber#(Ljava/lang/String;)V" name="setPhoneNumber( java.lang.String )" />
+					<Item itemRef="15" id="Customer.class#Customer#getId#()I" name="getId()" />
+					<Item itemRef="16" id="Customer.class#Customer#hashCode#()I" name="hashCode()" />
+					<Item itemRef="17" id="Customer.class#Customer#getFirstName#()Ljava/lang/String;" name="getFirstName()" />
+					<Item itemRef="18" id="Customer.class#Customer#setPassword#(Ljava/lang/String;)V" name="setPassword( java.lang.String )" />
+					<Item itemRef="19" id="Customer.class#Customer#setFirstName#(Ljava/lang/String;)V" name="setFirstName( java.lang.String )" />
+					<Item itemRef="20" id="Customer.class#Customer#setUsername#(Ljava/lang/String;)V" name="setUsername( java.lang.String )" />
+					<Item itemRef="21" id="Customer.class#Customer#getFullName#()Ljava/lang/String;" name="getFullName()" />
+					<Item itemRef="22" id="Customer.class#Customer#setLastName#(Ljava/lang/String;)V" name="setLastName( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="17" hashes="0" />
+				<StatCvg itemRef="3" elems="83" hashes="0" />
+				<StatCvg itemRef="4" elems="32 33" hashes="0 0" />
+				<StatCvg itemRef="5" elems="44" hashes="0" />
+				<StatCvg itemRef="6" elems="93" hashes="0" />
+				<StatCvg itemRef="7" elems="136" hashes="0" />
+				<StatCvg itemRef="8" elems="77 78" hashes="0 0" />
+				<StatCvg itemRef="9" elems="117 118 120 121 123 124 125 126 127 128 129 130 131" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="65" hashes="0" />
+				<StatCvg itemRef="11" elems="61 62" hashes="0 0" />
+				<StatCvg itemRef="12" elems="57" hashes="0" />
+				<StatCvg itemRef="13" elems="73" hashes="0" />
+				<StatCvg itemRef="14" elems="69 70" hashes="0 0" />
+				<StatCvg itemRef="15" elems="28" hashes="0" />
+				<StatCvg itemRef="16" elems="102 103 104 105 106 107 108 109 110 111 112" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="17" elems="36" hashes="0" />
+				<StatCvg itemRef="18" elems="97 98" hashes="0 0" />
+				<StatCvg itemRef="19" elems="40 41" hashes="0 0" />
+				<StatCvg itemRef="20" elems="87 88" hashes="0 0" />
+				<StatCvg itemRef="21" elems="53" hashes="0" />
+				<StatCvg itemRef="22" elems="48 49" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="3 2" elemRefs="69 70" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="3 2" elemRefs="77 78" />
+				</DynCvg>
+				<DynCvg itemRef="20">
+					<CtxCvg testRefs="3 2" elemRefs="87 88" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="17" />
+				</DynCvg>
+				<DynCvg itemRef="19">
+					<CtxCvg testRefs="3 2" elemRefs="40 41" />
+				</DynCvg>
+				<DynCvg itemRef="18">
+					<CtxCvg testRefs="3 2" elemRefs="97 98" />
+				</DynCvg>
+				<DynCvg itemRef="22">
+					<CtxCvg testRefs="3 2" elemRefs="48 49" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="32 33" />
+				</DynCvg>
+				<DynCvg itemRef="21">
+					<CtxCvg testRefs="3 2" elemRefs="53" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3 2" elemRefs="61 62" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="3 2" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3 2" elemRefs="136" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="6">
+			<Stats>
+				<Item itemRef="1" id="News.class#News" name="News">
+					<Item itemRef="2" id="News.class#News#&lt;init>#()V" name="News()" />
+					<Item itemRef="3" id="News.class#News#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="4" id="News.class#News#&lt;init>#(ILjava/util/Date;Ljava/lang/String;Ljava/lang/String;)V" name="News( int, java.util.Date, java.lang.String, java.lang.String )" />
+					<Item itemRef="5" id="News.class#News#setId#(I)V" name="setId( int )" />
+					<Item itemRef="6" id="News.class#News#compareTo#(Ljava/lang/Object;)I" name="compareTo( java.lang.Object )" />
+					<Item itemRef="7" id="News.class#News#getHeadline#()Ljava/lang/String;" name="getHeadline()" />
+					<Item itemRef="8" id="News.class#News#getStory#()Ljava/lang/String;" name="getStory()" />
+					<Item itemRef="9" id="News.class#News#hashCode#()I" name="hashCode()" />
+					<Item itemRef="10" id="News.class#News#setDate#(Ljava/util/Date;)V" name="setDate( java.util.Date )" />
+					<Item itemRef="11" id="News.class#News#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="12" id="News.class#News#setHeadline#(Ljava/lang/String;)V" name="setHeadline( java.lang.String )" />
+					<Item itemRef="13" id="News.class#News#getId#()I" name="getId()" />
+					<Item itemRef="14" id="News.class#News#getDate#()Ljava/util/Date;" name="getDate()" />
+					<Item itemRef="15" id="News.class#News#setStory#(Ljava/lang/String;)V" name="setStory( java.lang.String )" />
+					<Item itemRef="16" id="News.class#News#compareTo#(Lcom/parasoft/parabank/domain/News;)I" name="compareTo( com.parasoft.parabank.domain.News )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16 18" hashes="0 0" />
+				<StatCvg itemRef="3" elems="87" hashes="0" />
+				<StatCvg itemRef="4" elems="20 21 22 23 24 25" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="5" elems="32 33" hashes="0 0" />
+				<StatCvg itemRef="6" elems="10" hashes="0" />
+				<StatCvg itemRef="7" elems="44" hashes="0" />
+				<StatCvg itemRef="8" elems="52" hashes="0" />
+				<StatCvg itemRef="9" elems="61 62 63 64 65 66 67" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="40 41" hashes="0 0" />
+				<StatCvg itemRef="11" elems="72 73 75 76 78 79 80 81 82" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="12" elems="48 49" hashes="0 0" />
+				<StatCvg itemRef="13" elems="28" hashes="0" />
+				<StatCvg itemRef="14" elems="36" hashes="0" />
+				<StatCvg itemRef="15" elems="56 57" hashes="0 0" />
+				<StatCvg itemRef="16" elems="93" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="2 1" elemRefs="44" />
+				</DynCvg>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="2 1" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="2 1" elemRefs="32 33" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="2 1" elemRefs="16 18" />
+				</DynCvg>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="2 1" elemRefs="36" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="2 1" elemRefs="48 49" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="2 1" elemRefs="56 57" />
+				</DynCvg>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="2 1" elemRefs="40 41" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="7">
+			<Stats>
+				<Item itemRef="1" id="Payee.class#Payee" name="Payee">
+					<Item itemRef="2" id="Payee.class#Payee#hashCode#()I" name="hashCode()" />
+					<Item itemRef="3" id="Payee.class#Payee#setPhoneNumber#(Ljava/lang/String;)V" name="setPhoneNumber( java.lang.String )" />
+					<Item itemRef="4" id="Payee.class#Payee#&lt;init>#()V" name="Payee()" />
+					<Item itemRef="5" id="Payee.class#Payee#getAccountNumber#()Ljava/lang/Integer;" name="getAccountNumber()" />
+					<Item itemRef="6" id="Payee.class#Payee#getPhoneNumber#()Ljava/lang/String;" name="getPhoneNumber()" />
+					<Item itemRef="7" id="Payee.class#Payee#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="8" id="Payee.class#Payee#setName#(Ljava/lang/String;)V" name="setName( java.lang.String )" />
+					<Item itemRef="9" id="Payee.class#Payee#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="10" id="Payee.class#Payee#getAddress#()Lcom/parasoft/parabank/domain/Address;" name="getAddress()" />
+					<Item itemRef="11" id="Payee.class#Payee#getName#()Ljava/lang/String;" name="getName()" />
+					<Item itemRef="12" id="Payee.class#Payee#setAccountNumber#(Ljava/lang/Integer;)V" name="setAccountNumber( java.lang.Integer )" />
+					<Item itemRef="13" id="Payee.class#Payee#setAddress#(Lcom/parasoft/parabank/domain/Address;)V" name="setAddress( com.parasoft.parabank.domain.Address )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="51 52 53 54 55 56 57" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="3" elems="38 39" hashes="0 0" />
+				<StatCvg itemRef="4" elems="11" hashes="0" />
+				<StatCvg itemRef="5" elems="42" hashes="0" />
+				<StatCvg itemRef="6" elems="34" hashes="0" />
+				<StatCvg itemRef="7" elems="62 63 65 66 68 69 70 71 72" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="22 23" hashes="0 0" />
+				<StatCvg itemRef="9" elems="77" hashes="0" />
+				<StatCvg itemRef="10" elems="26" hashes="0" />
+				<StatCvg itemRef="11" elems="18" hashes="0" />
+				<StatCvg itemRef="12" elems="46 47" hashes="0 0" />
+				<StatCvg itemRef="13" elems="30 31" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="2" elemRefs="18" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="2" elemRefs="46 47" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2" elemRefs="38 39" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="2" elemRefs="11" />
+				</DynCvg>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="2" elemRefs="30 31" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="2" elemRefs="22 23" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="8">
+			<Stats>
+				<Item itemRef="1" id="Transaction.class#Transaction" name="Transaction">
+					<Item itemRef="2" id="Transaction.class#Transaction#getType#()Lcom/parasoft/parabank/domain/Transaction$TransactionType;" name="getType()" />
+					<Item itemRef="3" id="Transaction.class#Transaction#setType#(I)V" name="setType( int )" />
+					<Item itemRef="4" id="Transaction.class#Transaction#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="5" id="Transaction.class#Transaction#setType#(Lcom/parasoft/parabank/domain/Transaction$TransactionType;)V" name="setType( com.parasoft.parabank.domain.Transaction$TransactionType )" />
+					<Item itemRef="6" id="Transaction.class#Transaction#setDate#(Ljava/util/Date;)V" name="setDate( java.util.Date )" />
+					<Item itemRef="7" id="Transaction.class#Transaction#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="8" id="Transaction.class#Transaction#getId#()I" name="getId()" />
+					<Item itemRef="9" id="Transaction.class#Transaction#setAccountId#(I)V" name="setAccountId( int )" />
+					<Item itemRef="10" id="Transaction.class#Transaction#readFrom#(Lcom/google/gson/JsonObject;)Lcom/parasoft/parabank/domain/Transaction;" name="readFrom( com.google.gson.JsonObject )" />
+					<Item itemRef="11" id="Transaction.class#Transaction#getIntType#()I" name="getIntType()" />
+					<Item itemRef="12" id="Transaction.class#Transaction#setAmount#(Ljava/math/BigDecimal;)V" name="setAmount( java.math.BigDecimal )" />
+					<Item itemRef="13" id="Transaction.class#Transaction#setId#(I)V" name="setId( int )" />
+					<Item itemRef="14" id="Transaction.class#Transaction#&lt;init>#()V" name="Transaction()" />
+					<Item itemRef="15" id="Transaction.class#Transaction#hashCode#()I" name="hashCode()" />
+					<Item itemRef="16" id="Transaction.class#Transaction#getAmount#()Ljava/math/BigDecimal;" name="getAmount()" />
+					<Item itemRef="17" id="Transaction.class#Transaction#getDescription#()Ljava/lang/String;" name="getDescription()" />
+					<Item itemRef="18" id="Transaction.class#Transaction#setDescription#(Ljava/lang/String;)V" name="setDescription( java.lang.String )" />
+					<Item itemRef="19" id="Transaction.class#Transaction#getAccountId#()I" name="getAccountId()" />
+					<Item itemRef="20" id="Transaction.class#Transaction#getDate#()Ljava/util/Date;" name="getDate()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="99" hashes="0" />
+				<StatCvg itemRef="3" elems="137 138" hashes="0 0" />
+				<StatCvg itemRef="4" elems="58 59 61 62 64 65 66 67" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="5" elems="142 143" hashes="0 0" />
+				<StatCvg itemRef="6" elems="124 125" hashes="0 0" />
+				<StatCvg itemRef="7" elems="147" hashes="0" />
+				<StatCvg itemRef="8" elems="89" hashes="0" />
+				<StatCvg itemRef="9" elems="116 117" hashes="0 0" />
+				<StatCvg itemRef="10" elems="32 33 34 35 36 37 38 39 40 41" hashes="0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="11" elems="94" hashes="0" />
+				<StatCvg itemRef="12" elems="120 121" hashes="0 0" />
+				<StatCvg itemRef="13" elems="132 133" hashes="0 0" />
+				<StatCvg itemRef="14" elems="25" hashes="0" />
+				<StatCvg itemRef="15" elems="104 105 106 107 108 109 110 111 112" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="16" elems="75" hashes="0" />
+				<StatCvg itemRef="17" elems="85" hashes="0" />
+				<StatCvg itemRef="18" elems="128 129" hashes="0 0" />
+				<StatCvg itemRef="19" elems="71" hashes="0" />
+				<StatCvg itemRef="20" elems="81" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="3 2" elemRefs="25" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="3 2" elemRefs="89" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="3 2" elemRefs="116 117" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="3 2" elemRefs="120 121" />
+				</DynCvg>
+				<DynCvg itemRef="16">
+					<CtxCvg testRefs="3 2" elemRefs="75" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3 2" elemRefs="142 143" />
+				</DynCvg>
+				<DynCvg itemRef="18">
+					<CtxCvg testRefs="3 2" elemRefs="128 129" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3 2" elemRefs="94" />
+				</DynCvg>
+				<DynCvg itemRef="20">
+					<CtxCvg testRefs="3 2" elemRefs="81" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3 2" elemRefs="124 125" />
+				</DynCvg>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="3 2" elemRefs="132 133" />
+				</DynCvg>
+				<DynCvg itemRef="17">
+					<CtxCvg testRefs="3 2" elemRefs="85" />
+				</DynCvg>
+				<DynCvg itemRef="19">
+					<CtxCvg testRefs="3 2" elemRefs="71" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="9">
+			<Stats>
+				<Item itemRef="1" id="AccessModeController.class#AccessModeController" name="AccessModeController">
+					<Item itemRef="2" id="AccessModeController.class#AccessModeController#getTransactionsSoap#(Lcom/parasoft/parabank/domain/Account;Lcom/parasoft/parabank/domain/TransactionCriteria;Lcom/parasoft/parabank/service/ParaBankService;)Ljava/util/List;" name="getTransactionsSoap( com.parasoft.parabank.domain.Account, com.parasoft.parabank.domain.TransactionCriteria, com.parasoft.parabank.service.ParaBankService )" />
+					<Item itemRef="3" id="AccessModeController.class#AccessModeController#getDefaultRestEndpoint#()Ljava/lang/String;" name="getDefaultRestEndpoint()" />
+					<Item itemRef="4" id="AccessModeController.class#AccessModeController#getCatalinaPort#()I" name="getCatalinaPort()" />
+					<Item itemRef="5" id="AccessModeController.class#AccessModeController#getConnection#(Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;)Ljava/net/HttpURLConnection;" name="getConnection( java.net.URL, java.lang.String, java.lang.String )" />
+					<Item itemRef="6" id="AccessModeController.class#AccessModeController#doDBinit#()V" name="doDBinit()" />
+					<Item itemRef="7" id="AccessModeController.class#AccessModeController#doGetTransaction#(I)Lcom/parasoft/parabank/domain/Transaction;" name="doGetTransaction( int )" />
+					<Item itemRef="8" id="AccessModeController.class#AccessModeController#updateCustomer#(Lcom/parasoft/parabank/domain/Customer;)V" name="updateCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="9" id="AccessModeController.class#AccessModeController#doBillPay#(ILjava/math/BigDecimal;Lcom/parasoft/parabank/domain/Payee;)V" name="doBillPay( int, java.math.BigDecimal, com.parasoft.parabank.domain.Payee )" />
+					<Item itemRef="10" id="AccessModeController.class#AccessModeController#doGetTransactions#(I)Ljava/util/List;" name="doGetTransactions( int )" />
+					<Item itemRef="11" id="AccessModeController.class#AccessModeController#login#(Ljava/lang/String;Ljava/lang/String;)Lcom/parasoft/parabank/domain/Customer;" name="login( java.lang.String, java.lang.String )" />
+					<Item itemRef="12" id="AccessModeController.class#AccessModeController#appendQueryParam#(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/StringBuilder;" name="appendQueryParam( java.lang.StringBuilder, java.lang.String, java.lang.String, boolean )" />
+					<Item itemRef="13" id="AccessModeController.class#AccessModeController#doDBClean#()V" name="doDBClean()" />
+					<Item itemRef="14" id="AccessModeController.class#AccessModeController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="15" id="AccessModeController.class#AccessModeController#createUpdateCustomerUrl#(Lcom/parasoft/parabank/domain/Customer;Lcom/parasoft/parabank/domain/Address;Ljava/lang/String;)Ljava/net/URL;" name="createUpdateCustomerUrl( com.parasoft.parabank.domain.Customer, com.parasoft.parabank.domain.Address, java.lang.String )" />
+					<Item itemRef="16" id="AccessModeController.class#AccessModeController#doRequestLoan#(ILjava/math/BigDecimal;Ljava/math/BigDecimal;I)Lcom/parasoft/parabank/domain/LoanResponse;" name="doRequestLoan( int, java.math.BigDecimal, java.math.BigDecimal, int )" />
+					<Item itemRef="17" id="AccessModeController.class#AccessModeController#&lt;init>#()V" name="AccessModeController()" />
+					<Item itemRef="18" id="AccessModeController.class#AccessModeController#getTransactionsForAccount#(Lcom/parasoft/parabank/domain/Account;Lcom/parasoft/parabank/domain/TransactionCriteria;)Ljava/util/List;" name="getTransactionsForAccount( com.parasoft.parabank.domain.Account, com.parasoft.parabank.domain.TransactionCriteria )" />
+					<Item itemRef="19" id="AccessModeController.class#AccessModeController#createAccount#(III)Lcom/parasoft/parabank/domain/Account;" name="createAccount( int, int, int )" />
+					<Item itemRef="20" id="AccessModeController.class#AccessModeController#appendQueryParam#(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;" name="appendQueryParam( java.lang.StringBuilder, java.lang.String, java.lang.String )" />
+					<Item itemRef="21" id="AccessModeController.class#AccessModeController#setAdminManager#(Lcom/parasoft/parabank/domain/logic/AdminManager;)V" name="setAdminManager( com.parasoft.parabank.domain.logic.AdminManager )" />
+					<Item itemRef="22" id="AccessModeController.class#AccessModeController#doGetCustomer#(I)Lcom/parasoft/parabank/domain/Customer;" name="doGetCustomer( int )" />
+					<Item itemRef="23" id="AccessModeController.class#AccessModeController#setBankManager#(Lcom/parasoft/parabank/domain/logic/BankManager;)V" name="setBankManager( com.parasoft.parabank.domain.logic.BankManager )" />
+					<Item itemRef="24" id="AccessModeController.class#AccessModeController#doGetAccount#(I)Lcom/parasoft/parabank/domain/Account;" name="doGetAccount( int )" />
+					<Item itemRef="25" id="AccessModeController.class#AccessModeController#createGetTransactionsRestUrl#(ILcom/parasoft/parabank/domain/TransactionCriteria;Ljava/lang/String;)Ljava/net/URL;" name="createGetTransactionsRestUrl( int, com.parasoft.parabank.domain.TransactionCriteria, java.lang.String )" />
+					<Item itemRef="26" id="AccessModeController.class#AccessModeController#doGetAccounts#(Lcom/parasoft/parabank/domain/Customer;)Ljava/util/List;" name="doGetAccounts( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="27" id="AccessModeController.class#AccessModeController#doTransfer#(IILjava/math/BigDecimal;)V" name="doTransfer( int, int, java.math.BigDecimal )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="955 956 957 958 959 960 961 962 963 964 965 966 967 971" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="3" elems="876" hashes="0" />
+				<StatCvg itemRef="4" elems="72 73" hashes="0 0" />
+				<StatCvg itemRef="5" elems="869 870 871 872" hashes="0 0 0 0" />
+				<StatCvg itemRef="6" elems="281 283 284 285 286 287 288 289 290 291 293 294 295 297 299 300 301 303 304 305 310 311 312 313 315" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="538 539 540 541 543 544 547 549 550 551 552 554 555 559 561 562 564 565 567 569 570 572 574 575 577 578 580 582 583 584 586 587 589 590 591 593 596" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="1079 1080 1081 1083 1084 1087 1089 1091 1092 1093 1094 1096 1097 1101 1103 1104 1105 1106 1107 1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 1118 1120" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="825 826 828 829 831 832 835 836 837 838 839 840 841 842 846 847 848 849 850 852 853 854 855 856 857 858 859 860 861 862 863 865" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="610 611 612 614 615 618 619 621 622 623 624 625 627 628 632 633 634 636 639 640 641 642 644 646 648 649 651 654 656 657 658 659 661 662 665 666 668 670 673" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="11" elems="985 987 988 989 990 993 994 997 999 1000 1001 1002 1004 1005 1010 1011 1012 1014 1015 1017 1019 1020 1021 1023 1024 1027 1028 1029 1031 1032 1035 1037 1038 1040 1041 1042 1045 1046 1047 1051 1052 1053 1057 1058 1059 1061 1062 1063 1066" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="12" elems="122 123" hashes="0 0" />
+				<StatCvg itemRef="13" elems="242 244 245 246 247 248 249 250 251 252 254 255 256 258 259 261 262 263 264 265 268 269 270 271 272 274" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="14" elems="65" hashes="0" />
+				<StatCvg itemRef="15" elems="215 216 217 218 219 220 221 222 223 224 225 226 227" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="16" elems="691 693 694 695 697 698 701 702 703 704 705 707 708 712 714 715 717 719 721 722 723 724 726 728 729 731 733 735 737 738 739 741 742 744 745 746 749" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="17" elems="76 86 87 88 89" hashes="0 0 0 0 0" />
+				<StatCvg itemRef="18" elems="882 884 885 886 889 890 891 893 894 897 899 901 902 903 904 906 907 911 912 913 914 915 916 917 918 919 921 923 925 926 927 928 929 931 932 933 934 936 937 940 941 944 946 949" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="19" elems="129 130 131 132 134 135 138 140 141 142 143 145 146 150 151 152 154 156 158 160 162 163 165 167 169 171 174 175 177 178 179 180 181 183 184 187" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="20" elems="105" hashes="0" />
+				<StatCvg itemRef="21" elems="1070 1071" hashes="0 0" />
+				<StatCvg itemRef="22" elems="468 469 470 472 473 476 478 479 480 481 483 484 488 489 490 492 494 495 497 499 500 502 504 506 508 510 512 516 517 520 521 524" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="23" elems="1074 1075" hashes="0 0" />
+				<StatCvg itemRef="24" elems="326 327 328 329 331 332 335 336 337 338 339 341 342 346 347 348 350 351 353 355 356 358 360 361 363 365 366 368 369 370 371 372 373 374 377" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="25" elems="193 195 196 197 198 199 200 201 202 203 204 205 206 210" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="26" elems="391 392 395 396 397 399 400 403 404 405 406 407 409 410 414 415 416 418 420 422 423 424 426 428 430 432 434 436 438 439 441 442 443 444 446 447 448 449 452 453 456" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="27" elems="763 764 765 766 768 769 772 774 775 776 777 779 780 784 785 786 788 791 792 796 798 799 801 803 806 807 808 809 811" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="876" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3 2" elemRefs="985 987 988 989 990 993 994 997 1017 1061 1062 1063 1066" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="10">
+			<Stats>
+				<Item itemRef="1" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor" name="ParaBankBeanPostProcessor">
+					<Item itemRef="2" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#postProcessAfterInitialization#(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;" name="postProcessAfterInitialization( java.lang.Object, java.lang.String )" />
+					<Item itemRef="3" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#getResolver#()Lcom/parasoft/parabank/util/SessionParamArgumentResolver;" name="getResolver()" />
+					<Item itemRef="4" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#postProcessBeforeInitialization#(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;" name="postProcessBeforeInitialization( java.lang.Object, java.lang.String )" />
+					<Item itemRef="5" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#&lt;init>#()V" name="ParaBankBeanPostProcessor()" />
+					<Item itemRef="7" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#forceResolver#(Ljava/util/List;)V" name="forceResolver( java.util.List )" />
+					<Item itemRef="8" id="ParaBankBeanPostProcessor.class#ParaBankBeanPostProcessor#setResolver#(Lcom/parasoft/parabank/util/SessionParamArgumentResolver;)V" name="setResolver( com.parasoft.parabank.util.SessionParamArgumentResolver )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="76 78 79 80 81 90" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="3" elems="67 68 70" hashes="0 0 0" />
+				<StatCvg itemRef="4" elems="96" hashes="0" />
+				<StatCvg itemRef="5" elems="25" hashes="0" />
+				<StatCvg itemRef="6" elems="24" hashes="0" />
+				<StatCvg itemRef="7" elems="41 42 43 44 45 47 48 49 50 52 54" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="111 112" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2 1" elemRefs="76 78 90" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2 1" elemRefs="96" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="11">
+			<Stats>
+				<Item itemRef="1" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver" name="SessionParamArgumentResolver">
+					<Item itemRef="2" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver#&lt;init>#()V" name="SessionParamArgumentResolver()" />
+					<Item itemRef="3" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver#extractSessionParameter#(Lorg/springframework/core/MethodParameter;Lorg/springframework/web/context/request/NativeWebRequest;)Ljava/lang/Object;" name="extractSessionParameter( org.springframework.core.MethodParameter, org.springframework.web.context.request.NativeWebRequest )" />
+					<Item itemRef="4" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver#resolveArgument#(Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;" name="resolveArgument( org.springframework.core.MethodParameter, org.springframework.web.method.support.ModelAndViewContainer, org.springframework.web.context.request.NativeWebRequest, org.springframework.web.bind.support.WebDataBinderFactory )" />
+					<Item itemRef="5" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="SessionParamArgumentResolver.class#SessionParamArgumentResolver#supportsParameter#(Lorg/springframework/core/MethodParameter;)Z" name="supportsParameter( org.springframework.core.MethodParameter )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="49" hashes="0" />
+				<StatCvg itemRef="3" elems="72 73 74 75 77 78 79 80 81 86 87 88 90 91 92 94" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="101 102" hashes="0 0" />
+				<StatCvg itemRef="5" elems="51" hashes="0" />
+				<StatCvg itemRef="6" elems="108" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="101 102" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3" elemRefs="72 73 74 75 77 78 79 80 81 86 87 88 90 94" />
+					<CtxCvg testRefs="2" elemRefs="72 73 74 75 77 78 79 80 81 86 90 94" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="12">
+			<Stats>
+				<Item itemRef="1" id="Util.class#Util" name="Util">
+					<Item itemRef="2" id="Util.class#Util#getPort#()I" name="getPort()" />
+					<Item itemRef="3" id="Util.class#Util#getCurrentPath#(Lorg/springframework/context/ApplicationContext;)Ljava/lang/String;" name="getCurrentPath( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="4" id="Util.class#Util#equals#(Ljava/lang/Object;Ljava/lang/Object;)Z" name="equals( java.lang.Object, java.lang.Object )" />
+					<Item itemRef="5" id="Util.class#Util#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="Util.class#Util#isLoggedIn#(Ljavax/servlet/http/HttpSession;Ljava/lang/String;Ljava/lang/String;)Z" name="isLoggedIn( javax.servlet.http.HttpSession, java.lang.String, java.lang.String )" />
+					<Item itemRef="7" id="Util.class#Util#isEmpty#(Ljava/lang/Object;)Z" name="isEmpty( java.lang.Object )" />
+					<Item itemRef="8" id="Util.class#Util#prepareFolder#(Ljava/lang/String;)V" name="prepareFolder( java.lang.String )" />
+					<Item itemRef="9" id="Util.class#Util#isEmpty#(Ljava/lang/String;)Z" name="isEmpty( java.lang.String )" />
+					<Item itemRef="10" id="Util.class#Util#&lt;init>#()V" name="Util()" />
+					<Item itemRef="11" id="Util.class#Util#getHostPortString#()Ljava/lang/String;" name="getHostPortString()" />
+					<Item itemRef="12" id="Util.class#Util#getHostPort#()Lcom/parasoft/parabank/util/HostPort;" name="getHostPort()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="100 101 102 103 107 111 112 116 117 118 122 123 124 128 129 130 134 138 142 146 147 148 155 158 159" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="3" elems="54 57 58 59 62 63 64 66 67 68" hashes="0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="37" hashes="0" />
+				<StatCvg itemRef="5" elems="29" hashes="0" />
+				<StatCvg itemRef="6" elems="42 43 44 46 47 48 50" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="181 182" hashes="0 0" />
+				<StatCvg itemRef="8" elems="208 209 210 211 213 214 215 216 218 220" hashes="0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="193" hashes="0" />
+				<StatCvg itemRef="10" elems="222 223" hashes="0 0" />
+				<StatCvg itemRef="11" elems="92" hashes="0" />
+				<StatCvg itemRef="12" elems="76 78 79 80 81 83 84 85" hashes="0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3" elemRefs="37" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="2" elemRefs="181 182" />
+					<CtxCvg testRefs="3" elemRefs="181" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="3 2" elemRefs="193" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3 2" elemRefs="42 43 44" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="13">
+			<Stats>
+				<Item itemRef="1" id="TemplateViewResolver.class#TemplateViewResolver" name="TemplateViewResolver">
+					<Item itemRef="2" id="TemplateViewResolver.class#TemplateViewResolver#&lt;init>#()V" name="TemplateViewResolver()" />
+					<Item itemRef="3" id="TemplateViewResolver.class#TemplateViewResolver#isCache#()Z" name="isCache()" />
+					<Item itemRef="4" id="TemplateViewResolver.class#TemplateViewResolver#resolveViewName#(Ljava/lang/String;Ljava/util/Locale;)Lorg/springframework/web/servlet/View;" name="resolveViewName( java.lang.String, java.util.Locale )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="12" hashes="0" />
+				<StatCvg itemRef="3" elems="25" hashes="0" />
+				<StatCvg itemRef="4" elems="19 20" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2 1" elemRefs="19 20" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2 1" elemRefs="25" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="14">
+			<Stats>
+				<Item itemRef="1" id="UserSession.class#UserSession" name="UserSession">
+					<Item itemRef="2" id="UserSession.class#UserSession#getCustomer#()Lcom/parasoft/parabank/domain/Customer;" name="getCustomer()" />
+					<Item itemRef="3" id="UserSession.class#UserSession#&lt;init>#(Lcom/parasoft/parabank/domain/Customer;)V" name="UserSession( com.parasoft.parabank.domain.Customer )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16" hashes="0" />
+				<StatCvg itemRef="3" elems="11 12 13" hashes="0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="11 12 13" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="16" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="15">
+			<Stats>
+				<Item itemRef="1" id="JdbcAccountDao$AccountMapper.class#JdbcAccountDao$AccountMapper" name="JdbcAccountDao$AccountMapper">
+					<Item itemRef="2" id="JdbcAccountDao$AccountMapper.class#JdbcAccountDao$AccountMapper#mapRow#(Ljava/sql/ResultSet;I)Ljava/lang/Object;" name="mapRow( java.sql.ResultSet, int )" />
+					<Item itemRef="3" id="JdbcAccountDao$AccountMapper.class#JdbcAccountDao$AccountMapper#&lt;init>#(Lcom/parasoft/parabank/dao/jdbc/JdbcAccountDao$1;)V" name="JdbcAccountDao$AccountMapper( com.parasoft.parabank.dao.jdbc.JdbcAccountDao$1 )" />
+					<Item itemRef="4" id="JdbcAccountDao$AccountMapper.class#JdbcAccountDao$AccountMapper#mapRow#(Ljava/sql/ResultSet;I)Lcom/parasoft/parabank/domain/Account;" name="mapRow( java.sql.ResultSet, int )" />
+					<Item itemRef="5" id="JdbcAccountDao$AccountMapper.class#JdbcAccountDao$AccountMapper#&lt;init>#()V" name="JdbcAccountDao$AccountMapper()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21" hashes="0" />
+				<StatCvg itemRef="3" elems="21" hashes="0" />
+				<StatCvg itemRef="4" elems="24 25 26 27 28 29 30" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="5" elems="21" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="24 25 26 27 28 29 30" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="16">
+			<Stats>
+				<Item itemRef="1" id="JdbcAccountDao.class#JdbcAccountDao" name="JdbcAccountDao">
+					<Item itemRef="2" id="JdbcAccountDao.class#JdbcAccountDao#setSequenceDao#(Lcom/parasoft/parabank/dao/jdbc/JdbcSequenceDao;)V" name="setSequenceDao( com.parasoft.parabank.dao.jdbc.JdbcSequenceDao )" />
+					<Item itemRef="3" id="JdbcAccountDao.class#JdbcAccountDao#&lt;init>#()V" name="JdbcAccountDao()" />
+					<Item itemRef="4" id="JdbcAccountDao.class#JdbcAccountDao#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="5" id="JdbcAccountDao.class#JdbcAccountDao#createAccount#(Lcom/parasoft/parabank/domain/Account;)I" name="createAccount( com.parasoft.parabank.domain.Account )" />
+					<Item itemRef="6" id="JdbcAccountDao.class#JdbcAccountDao#updateAccount#(Lcom/parasoft/parabank/domain/Account;)V" name="updateAccount( com.parasoft.parabank.domain.Account )" />
+					<Item itemRef="7" id="JdbcAccountDao.class#JdbcAccountDao#getAccount#(I)Lcom/parasoft/parabank/domain/Account;" name="getAccount( int )" />
+					<Item itemRef="8" id="JdbcAccountDao.class#JdbcAccountDao#getAccountsForCustomerId#(I)Ljava/util/List;" name="getAccountsForCustomerId( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="128 129" hashes="0 0" />
+				<StatCvg itemRef="3" elems="20" hashes="0" />
+				<StatCvg itemRef="4" elems="60" hashes="0" />
+				<StatCvg itemRef="5" elems="82 85 86 87 88 92 94" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="6" elems="138 141 142 146 147" hashes="0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="104 106 107 109" hashes="0 0 0 0" />
+				<StatCvg itemRef="8" elems="119 121 122 124" hashes="0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3 2" elemRefs="104 106 107 109" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="3 2" elemRefs="119 121 122 124" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3 2" elemRefs="138 141 142 146 147" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="17">
+			<Stats>
+				<Item itemRef="1" id="JdbcAdminDao.class#JdbcAdminDao" name="JdbcAdminDao">
+					<Item itemRef="2" id="JdbcAdminDao.class#JdbcAdminDao#&lt;init>#()V" name="JdbcAdminDao()" />
+					<Item itemRef="3" id="JdbcAdminDao.class#JdbcAdminDao#cleanDB#()V" name="cleanDB()" />
+					<Item itemRef="4" id="JdbcAdminDao.class#JdbcAdminDao#performReset#()V" name="performReset()" />
+					<Item itemRef="5" id="JdbcAdminDao.class#JdbcAdminDao#getParameter#(Ljava/lang/String;)Ljava/lang/String;" name="getParameter( java.lang.String )" />
+					<Item itemRef="6" id="JdbcAdminDao.class#JdbcAdminDao#setInserters#(Ljava/util/List;)V" name="setInserters( java.util.List )" />
+					<Item itemRef="7" id="JdbcAdminDao.class#JdbcAdminDao#setParameter#(Ljava/lang/String;Ljava/lang/String;)V" name="setParameter( java.lang.String, java.lang.String )" />
+					<Item itemRef="8" id="JdbcAdminDao.class#JdbcAdminDao#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="9" id="JdbcAdminDao.class#JdbcAdminDao#getParameters#()Ljava/util/Map;" name="getParameters()" />
+					<Item itemRef="10" id="JdbcAdminDao.class#JdbcAdminDao#initializeDB#()V" name="initializeDB()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="26" hashes="0" />
+				<StatCvg itemRef="3" elems="46 47 48 49 51 52 53 54 55 56 57 58 60 61 63 64 65 67 68 70" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="143 144 146 147 149 150 152 154 155" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="5" elems="79 81" hashes="0 0" />
+				<StatCvg itemRef="6" elems="158 159" hashes="0 0" />
+				<StatCvg itemRef="7" elems="168 169 171 172 173 174 176" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="27 31 33 35" hashes="0 0 0 0" />
+				<StatCvg itemRef="9" elems="91 93 94 95 96 98" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="109 111 113 114 115 116 118 119 121 125 126 127 128 130 132" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3 2" elemRefs="79 81" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="18">
+			<Stats>
+				<Item itemRef="1" id="JdbcCustomerDao$CustomerMapper.class#JdbcCustomerDao$CustomerMapper" name="JdbcCustomerDao$CustomerMapper">
+					<Item itemRef="2" id="JdbcCustomerDao$CustomerMapper.class#JdbcCustomerDao$CustomerMapper#&lt;init>#(Lcom/parasoft/parabank/dao/jdbc/JdbcCustomerDao$1;)V" name="JdbcCustomerDao$CustomerMapper( com.parasoft.parabank.dao.jdbc.JdbcCustomerDao$1 )" />
+					<Item itemRef="3" id="JdbcCustomerDao$CustomerMapper.class#JdbcCustomerDao$CustomerMapper#&lt;init>#()V" name="JdbcCustomerDao$CustomerMapper()" />
+					<Item itemRef="4" id="JdbcCustomerDao$CustomerMapper.class#JdbcCustomerDao$CustomerMapper#mapRow#(Ljava/sql/ResultSet;I)Lcom/parasoft/parabank/domain/Customer;" name="mapRow( java.sql.ResultSet, int )" />
+					<Item itemRef="5" id="JdbcCustomerDao$CustomerMapper.class#JdbcCustomerDao$CustomerMapper#mapRow#(Ljava/sql/ResultSet;I)Ljava/lang/Object;" name="mapRow( java.sql.ResultSet, int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21" hashes="0" />
+				<StatCvg itemRef="3" elems="21" hashes="0" />
+				<StatCvg itemRef="4" elems="24 25 26 27 28 29 30 31 32 33 34 35 36 37 38" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="5" elems="21" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="21" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="24 25 26 27 28 29 30 31 32 33 34 35 36 37 38" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="19">
+			<Stats>
+				<Item itemRef="1" id="JdbcCustomerDao.class#JdbcCustomerDao" name="JdbcCustomerDao">
+					<Item itemRef="2" id="JdbcCustomerDao.class#JdbcCustomerDao#&lt;init>#()V" name="JdbcCustomerDao()" />
+					<Item itemRef="3" id="JdbcCustomerDao.class#JdbcCustomerDao#getCustomer#(Ljava/lang/String;Ljava/lang/String;)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( java.lang.String, java.lang.String )" />
+					<Item itemRef="4" id="JdbcCustomerDao.class#JdbcCustomerDao#setSequenceDao#(Lcom/parasoft/parabank/dao/jdbc/JdbcSequenceDao;)V" name="setSequenceDao( com.parasoft.parabank.dao.jdbc.JdbcSequenceDao )" />
+					<Item itemRef="5" id="JdbcCustomerDao.class#JdbcCustomerDao#getCustomer#(Ljava/lang/String;)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( java.lang.String )" />
+					<Item itemRef="6" id="JdbcCustomerDao.class#JdbcCustomerDao#updateCustomer#(Lcom/parasoft/parabank/domain/Customer;)V" name="updateCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="7" id="JdbcCustomerDao.class#JdbcCustomerDao#getCustomer#(I)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( int )" />
+					<Item itemRef="8" id="JdbcCustomerDao.class#JdbcCustomerDao#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="9" id="JdbcCustomerDao.class#JdbcCustomerDao#createCustomer#(Lcom/parasoft/parabank/domain/Customer;)I" name="createCustomer( com.parasoft.parabank.domain.Customer )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20 44" hashes="0 0" />
+				<StatCvg itemRef="3" elems="114 116 119 120 121 122 123 125" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="129 130" hashes="0 0" />
+				<StatCvg itemRef="5" elems="93 95 98 99 100 101 102 104" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="6" elems="140 141 143 144 147 148" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="78 80 81 83" hashes="0 0 0 0" />
+				<StatCvg itemRef="8" elems="42" hashes="0" />
+				<StatCvg itemRef="9" elems="56 59 60 61 62 66 68" hashes="0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3 2" elemRefs="78 80 81 83" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3 2" elemRefs="114 116 119 120 123 125" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="20">
+			<Stats>
+				<Item itemRef="1" id="JdbcNewsDao$NewsMapper.class#JdbcNewsDao$NewsMapper" name="JdbcNewsDao$NewsMapper">
+					<Item itemRef="2" id="JdbcNewsDao$NewsMapper.class#JdbcNewsDao$NewsMapper#mapRow#(Ljava/sql/ResultSet;I)Ljava/lang/Object;" name="mapRow( java.sql.ResultSet, int )" />
+					<Item itemRef="3" id="JdbcNewsDao$NewsMapper.class#JdbcNewsDao$NewsMapper#&lt;init>#()V" name="JdbcNewsDao$NewsMapper()" />
+					<Item itemRef="4" id="JdbcNewsDao$NewsMapper.class#JdbcNewsDao$NewsMapper#&lt;init>#(Lcom/parasoft/parabank/dao/jdbc/JdbcNewsDao$1;)V" name="JdbcNewsDao$NewsMapper( com.parasoft.parabank.dao.jdbc.JdbcNewsDao$1 )" />
+					<Item itemRef="5" id="JdbcNewsDao$NewsMapper.class#JdbcNewsDao$NewsMapper#mapRow#(Ljava/sql/ResultSet;I)Lcom/parasoft/parabank/domain/News;" name="mapRow( java.sql.ResultSet, int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20" hashes="0" />
+				<StatCvg itemRef="3" elems="20" hashes="0" />
+				<StatCvg itemRef="4" elems="20" hashes="0" />
+				<StatCvg itemRef="5" elems="23 24 25 26 27 28" hashes="0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2 1" elemRefs="20" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="2 1" elemRefs="20" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="2 1" elemRefs="20" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="2 1" elemRefs="23 24 25 26 27 28" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="21">
+			<Stats>
+				<Item itemRef="1" id="JdbcNewsDao.class#JdbcNewsDao" name="JdbcNewsDao">
+					<Item itemRef="2" id="JdbcNewsDao.class#JdbcNewsDao#getLatestNewsDate#()Ljava/util/Date;" name="getLatestNewsDate()" />
+					<Item itemRef="3" id="JdbcNewsDao.class#JdbcNewsDao#getNewsForDate#(Ljava/util/Date;)Ljava/util/List;" name="getNewsForDate( java.util.Date )" />
+					<Item itemRef="4" id="JdbcNewsDao.class#JdbcNewsDao#getNews#()Ljava/util/List;" name="getNews()" />
+					<Item itemRef="5" id="JdbcNewsDao.class#JdbcNewsDao#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="JdbcNewsDao.class#JdbcNewsDao#&lt;init>#()V" name="JdbcNewsDao()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="41 43" hashes="0 0" />
+				<StatCvg itemRef="3" elems="68 70 71 73" hashes="0 0 0 0" />
+				<StatCvg itemRef="4" elems="53 55 56 58" hashes="0 0 0 0" />
+				<StatCvg itemRef="5" elems="32" hashes="0" />
+				<StatCvg itemRef="6" elems="19" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2 1" elemRefs="68 70 71 73" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="2 1" elemRefs="41 43" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="22">
+			<Stats>
+				<Item itemRef="1" id="JdbcSequenceDao.class#JdbcSequenceDao" name="JdbcSequenceDao">
+					<Item itemRef="2" id="JdbcSequenceDao.class#JdbcSequenceDao#setNextId#(Ljava/lang/String;I)I" name="setNextId( java.lang.String, int )" />
+					<Item itemRef="3" id="JdbcSequenceDao.class#JdbcSequenceDao#getCurrentId#(Ljava/lang/String;)I" name="getCurrentId( java.lang.String )" />
+					<Item itemRef="4" id="JdbcSequenceDao.class#JdbcSequenceDao#getNextId#(Ljava/lang/String;)I" name="getNextId( java.lang.String )" />
+					<Item itemRef="5" id="JdbcSequenceDao.class#JdbcSequenceDao#&lt;init>#()V" name="JdbcSequenceDao()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="40 41 43 44" hashes="0 0 0 0" />
+				<StatCvg itemRef="3" elems="12 14 19" hashes="0 0 0" />
+				<StatCvg itemRef="4" elems="30 32 35 36" hashes="0 0 0 0" />
+				<StatCvg itemRef="5" elems="8" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3 2" elemRefs="30 32 35 36" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="23">
+			<Stats>
+				<Item itemRef="1" id="JdbcTransactionDao.class#JdbcTransactionDao" name="JdbcTransactionDao">
+					<Item itemRef="2" id="JdbcTransactionDao.class#JdbcTransactionDao#getTransactionsForAccount#(ILcom/parasoft/parabank/domain/TransactionCriteria;)Ljava/util/List;" name="getTransactionsForAccount( int, com.parasoft.parabank.domain.TransactionCriteria )" />
+					<Item itemRef="3" id="JdbcTransactionDao.class#JdbcTransactionDao#setSequenceDao#(Lcom/parasoft/parabank/dao/jdbc/JdbcSequenceDao;)V" name="setSequenceDao( com.parasoft.parabank.dao.jdbc.JdbcSequenceDao )" />
+					<Item itemRef="4" id="JdbcTransactionDao.class#JdbcTransactionDao#&lt;init>#()V" name="JdbcTransactionDao()" />
+					<Item itemRef="5" id="JdbcTransactionDao.class#JdbcTransactionDao#createTransaction#(Lcom/parasoft/parabank/domain/Transaction;)I" name="createTransaction( com.parasoft.parabank.domain.Transaction )" />
+					<Item itemRef="6" id="JdbcTransactionDao.class#JdbcTransactionDao#getTransactionsForAccount#(I)Ljava/util/List;" name="getTransactionsForAccount( int )" />
+					<Item itemRef="7" id="JdbcTransactionDao.class#JdbcTransactionDao#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="8" id="JdbcTransactionDao.class#JdbcTransactionDao#getTransaction#(I)Lcom/parasoft/parabank/domain/Transaction;" name="getTransaction( int )" />
+					<Item itemRef="9" id="JdbcTransactionDao.class#JdbcTransactionDao#getRestrictions#(Lcom/parasoft/parabank/domain/TransactionCriteria;Ljava/util/List;)Ljava/lang/String;" name="getRestrictions( com.parasoft.parabank.domain.TransactionCriteria, java.util.List )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="105 108 109 111 114 116 117 118 120" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="3" elems="128 129" hashes="0 0" />
+				<StatCvg itemRef="4" elems="22" hashes="0" />
+				<StatCvg itemRef="5" elems="49 52 53 54 55 59 61" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="6" elems="88 91 92 94" hashes="0 0 0 0" />
+				<StatCvg itemRef="7" elems="38" hashes="0" />
+				<StatCvg itemRef="8" elems="71 74 75 77" hashes="0 0 0 0" />
+				<StatCvg itemRef="9" elems="124" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3 2" elemRefs="49 52 53 54 55 59 61" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="24">
+			<Stats>
+				<Item itemRef="1" id="NewsUtil.class#NewsUtil" name="NewsUtil">
+					<Item itemRef="2" id="NewsUtil.class#NewsUtil#&lt;init>#()V" name="NewsUtil()" />
+					<Item itemRef="3" id="NewsUtil.class#NewsUtil#createNewsMap#(Ljava/util/List;)Ljava/util/Map;" name="createNewsMap( java.util.List )" />
+					<Item itemRef="4" id="NewsUtil.class#NewsUtil#createNewsMap#([Lcom/parasoft/parabank/domain/News;)Ljava/util/Map;" name="createNewsMap( com.parasoft.parabank.domain.News[] )" />
+					<Item itemRef="5" id="NewsUtil.class#NewsUtil#&lt;clinit>#()V" name="class initialization()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="18 20" hashes="0 0" />
+				<StatCvg itemRef="3" elems="33 34 35 36 37 38 40 41 42 43 44" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="26" hashes="0" />
+				<StatCvg itemRef="5" elems="16" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2 1" elemRefs="33 34 35 36 37 38 40 41 42 43 44" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="25">
+			<Stats>
+				<Item itemRef="1" id="BillPayFormValidator.class#BillPayFormValidator" name="BillPayFormValidator">
+					<Item itemRef="2" id="BillPayFormValidator.class#BillPayFormValidator#supports#(Ljava/lang/Class;)Z" name="supports( java.lang.Class )" />
+					<Item itemRef="3" id="BillPayFormValidator.class#BillPayFormValidator#setPayeeValidator#(Lorg/springframework/validation/Validator;)V" name="setPayeeValidator( org.springframework.validation.Validator )" />
+					<Item itemRef="4" id="BillPayFormValidator.class#BillPayFormValidator#&lt;init>#()V" name="BillPayFormValidator()" />
+					<Item itemRef="5" id="BillPayFormValidator.class#BillPayFormValidator#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="BillPayFormValidator.class#BillPayFormValidator#getPayeeValidator#()Lorg/springframework/validation/Validator;" name="getPayeeValidator()" />
+					<Item itemRef="7" id="BillPayFormValidator.class#BillPayFormValidator#validate#(Ljava/lang/Object;Lorg/springframework/validation/Errors;)V" name="validate( java.lang.Object, org.springframework.validation.Errors )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="53" hashes="0" />
+				<StatCvg itemRef="3" elems="48 49" hashes="0 0" />
+				<StatCvg itemRef="4" elems="15" hashes="0" />
+				<StatCvg itemRef="5" elems="17" hashes="0" />
+				<StatCvg itemRef="6" elems="33" hashes="0" />
+				<StatCvg itemRef="7" elems="58 59 60 61 63 65 67 68 70 71 73 74 76" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="2" elemRefs="53" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="26">
+			<Stats>
+				<Item itemRef="1" id="TransferFormValidator.class#TransferFormValidator" name="TransferFormValidator">
+					<Item itemRef="2" id="TransferFormValidator.class#TransferFormValidator#&lt;init>#()V" name="TransferFormValidator()" />
+					<Item itemRef="3" id="TransferFormValidator.class#TransferFormValidator#supports#(Ljava/lang/Class;)Z" name="supports( java.lang.Class )" />
+					<Item itemRef="4" id="TransferFormValidator.class#TransferFormValidator#validate#(Ljava/lang/Object;Lorg/springframework/validation/Errors;)V" name="validate( java.lang.Object, org.springframework.validation.Errors )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="12" hashes="0" />
+				<StatCvg itemRef="3" elems="15" hashes="0" />
+				<StatCvg itemRef="4" elems="20 21" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3" elemRefs="15" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="27">
+			<Stats>
+				<Item itemRef="1" id="AbstractBankController.class#AbstractBankController" name="AbstractBankController">
+					<Item itemRef="2" id="AbstractBankController.class#AbstractBankController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="3" id="AbstractBankController.class#AbstractBankController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="4" id="AbstractBankController.class#AbstractBankController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="5" id="AbstractBankController.class#AbstractBankController#prepForm#(Lorg/springframework/ui/Model;)Lorg/springframework/web/servlet/ModelAndView;" name="prepForm( org.springframework.ui.Model )" />
+					<Item itemRef="6" id="AbstractBankController.class#AbstractBankController#prepForm#(Lorg/springframework/ui/Model;Ljava/lang/Object;)Lorg/springframework/web/servlet/ModelAndView;" name="prepForm( org.springframework.ui.Model, java.lang.Object )" />
+					<Item itemRef="7" id="AbstractBankController.class#AbstractBankController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="8" id="AbstractBankController.class#AbstractBankController#getCommand#(Lorg/springframework/ui/Model;)Ljava/lang/Object;" name="getCommand( org.springframework.ui.Model )" />
+					<Item itemRef="9" id="AbstractBankController.class#AbstractBankController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="10" id="AbstractBankController.class#AbstractBankController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="11" id="AbstractBankController.class#AbstractBankController#&lt;init>#()V" name="AbstractBankController()" />
+					<Item itemRef="12" id="AbstractBankController.class#AbstractBankController#prepCommand#(Lorg/springframework/ui/Model;Ljava/lang/Object;)Ljava/lang/Object;" name="prepCommand( org.springframework.ui.Model, java.lang.Object )" />
+					<Item itemRef="13" id="AbstractBankController.class#AbstractBankController#prepCommand#(Lorg/springframework/ui/Model;)Ljava/lang/Object;" name="prepCommand( org.springframework.ui.Model )" />
+					<Item itemRef="14" id="AbstractBankController.class#AbstractBankController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="15" id="AbstractBankController.class#AbstractBankController#setBankManager#(Lcom/parasoft/parabank/domain/logic/BankManager;)V" name="setBankManager( com.parasoft.parabank.domain.logic.BankManager )" />
+					<Item itemRef="16" id="AbstractBankController.class#AbstractBankController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="17" id="AbstractBankController.class#AbstractBankController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="106" hashes="0" />
+				<StatCvg itemRef="3" elems="44" hashes="0" />
+				<StatCvg itemRef="4" elems="58" hashes="0" />
+				<StatCvg itemRef="5" elems="121 122" hashes="0 0" />
+				<StatCvg itemRef="6" elems="126 127 128 130 131 133" hashes="0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="139 140" hashes="0 0" />
+				<StatCvg itemRef="8" elems="63 64" hashes="0 0" />
+				<StatCvg itemRef="9" elems="92" hashes="0" />
+				<StatCvg itemRef="10" elems="188 189" hashes="0 0" />
+				<StatCvg itemRef="11" elems="20" hashes="0" />
+				<StatCvg itemRef="12" elems="116 117" hashes="0 0" />
+				<StatCvg itemRef="13" elems="111 112" hashes="0 0" />
+				<StatCvg itemRef="14" elems="78" hashes="0" />
+				<StatCvg itemRef="15" elems="143 144" hashes="0 0" />
+				<StatCvg itemRef="16" elems="158 159" hashes="0 0" />
+				<StatCvg itemRef="17" elems="173 174" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3" elemRefs="126 127 130 131 133" />
+				</DynCvg>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="3" elemRefs="78" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="3" elemRefs="92" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3" elemRefs="106" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="3" elemRefs="121 122" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="28">
+			<Stats>
+				<Item itemRef="1" id="AbstractValidatingBankController.class#AbstractValidatingBankController" name="AbstractValidatingBankController">
+					<Item itemRef="2" id="AbstractValidatingBankController.class#AbstractValidatingBankController#initBinder#(Lorg/springframework/web/bind/WebDataBinder;)V" name="initBinder( org.springframework.web.bind.WebDataBinder )" />
+					<Item itemRef="3" id="AbstractValidatingBankController.class#AbstractValidatingBankController#getValidator#()Lorg/springframework/validation/Validator;" name="getValidator()" />
+					<Item itemRef="4" id="AbstractValidatingBankController.class#AbstractValidatingBankController#&lt;init>#()V" name="AbstractValidatingBankController()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="34 35" hashes="0 0" />
+				<StatCvg itemRef="3" elems="29" hashes="0" />
+				<StatCvg itemRef="4" elems="10" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3" elemRefs="29" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3" elemRefs="34 35" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="29">
+			<Stats>
+				<Item itemRef="1" id="AccountsOverviewController.class#AccountsOverviewController" name="AccountsOverviewController">
+					<Item itemRef="2" id="AccountsOverviewController.class#AccountsOverviewController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="3" id="AccountsOverviewController.class#AccountsOverviewController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="4" id="AccountsOverviewController.class#AccountsOverviewController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="5" id="AccountsOverviewController.class#AccountsOverviewController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="AccountsOverviewController.class#AccountsOverviewController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="7" id="AccountsOverviewController.class#AccountsOverviewController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="8" id="AccountsOverviewController.class#AccountsOverviewController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="9" id="AccountsOverviewController.class#AccountsOverviewController#setAdminManager#(Lcom/parasoft/parabank/domain/logic/AdminManager;)V" name="setAdminManager( com.parasoft.parabank.domain.logic.AdminManager )" />
+					<Item itemRef="10" id="AccountsOverviewController.class#AccountsOverviewController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="11" id="AccountsOverviewController.class#AccountsOverviewController#&lt;init>#()V" name="AccountsOverviewController()" />
+					<Item itemRef="12" id="AccountsOverviewController.class#AccountsOverviewController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="13" id="AccountsOverviewController.class#AccountsOverviewController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="14" id="AccountsOverviewController.class#AccountsOverviewController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="15" id="AccountsOverviewController.class#AccountsOverviewController#handleRequest#(Lcom/parasoft/parabank/web/UserSession;)Lorg/springframework/web/servlet/ModelAndView;" name="handleRequest( com.parasoft.parabank.web.UserSession )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="27" hashes="0" />
+				<StatCvg itemRef="3" elems="27" hashes="0" />
+				<StatCvg itemRef="4" elems="27" hashes="0" />
+				<StatCvg itemRef="5" elems="29" hashes="0" />
+				<StatCvg itemRef="6" elems="27" hashes="0" />
+				<StatCvg itemRef="7" elems="27" hashes="0" />
+				<StatCvg itemRef="8" elems="27" hashes="0" />
+				<StatCvg itemRef="9" elems="81 82" hashes="0 0" />
+				<StatCvg itemRef="10" elems="27" hashes="0" />
+				<StatCvg itemRef="11" elems="27" hashes="0" />
+				<StatCvg itemRef="12" elems="77 78" hashes="0 0" />
+				<StatCvg itemRef="13" elems="27" hashes="0" />
+				<StatCvg itemRef="14" elems="27" hashes="0" />
+				<StatCvg itemRef="15" elems="45 49 51 52 55 56 58 59 62 63 65 66 67 68 70 71 72" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="3 2" elemRefs="45 49 51 52 55 58 59 62 63 65 66 67 68 70 71 72" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="30">
+			<Stats>
+				<Item itemRef="1" id="BillPayController.class#BillPayController" name="BillPayController">
+					<Item itemRef="2" id="BillPayController.class#BillPayController#&lt;init>#()V" name="BillPayController()" />
+					<Item itemRef="3" id="BillPayController.class#BillPayController#getForm#(Lorg/springframework/ui/Model;)Lorg/springframework/web/servlet/ModelAndView;" name="getForm( org.springframework.ui.Model )" />
+					<Item itemRef="4" id="BillPayController.class#BillPayController#initBinder#(Lorg/springframework/web/bind/WebDataBinder;)V" name="initBinder( org.springframework.web.bind.WebDataBinder )" />
+					<Item itemRef="5" id="BillPayController.class#BillPayController#setMessageSource#(Lorg/springframework/context/MessageSource;)V" name="setMessageSource( org.springframework.context.MessageSource )" />
+					<Item itemRef="6" id="BillPayController.class#BillPayController#onSubmit#(Lcom/parasoft/parabank/web/form/BillPayForm;Lorg/springframework/validation/BindingResult;Lorg/springframework/ui/Model;Ljava/util/Locale;)Lorg/springframework/web/servlet/ModelAndView;" name="onSubmit( com.parasoft.parabank.web.form.BillPayForm, org.springframework.validation.BindingResult, org.springframework.ui.Model, java.util.Locale )" />
+					<Item itemRef="7" id="BillPayController.class#BillPayController#getAccountIds#(Lcom/parasoft/parabank/web/UserSession;)Ljava/util/List;" name="getAccountIds( com.parasoft.parabank.web.UserSession )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="37" hashes="0" />
+				<StatCvg itemRef="3" elems="67 68" hashes="0 0" />
+				<StatCvg itemRef="4" elems="94 95" hashes="0 0" />
+				<StatCvg itemRef="5" elems="89 90" hashes="0 0" />
+				<StatCvg itemRef="6" elems="74 75 78 79 81 82 83 85" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="55 56 58 59 60 61 62" hashes="0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2" elemRefs="67 68" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="2" elemRefs="55 56 58 59 60 61 62" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="2" elemRefs="94 95" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="31">
+			<Stats>
+				<Item itemRef="1" id="ErrorController.class#ErrorController" name="ErrorController">
+					<Item itemRef="2" id="ErrorController.class#ErrorController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="3" id="ErrorController.class#ErrorController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="4" id="ErrorController.class#ErrorController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="5" id="ErrorController.class#ErrorController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="6" id="ErrorController.class#ErrorController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="7" id="ErrorController.class#ErrorController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="8" id="ErrorController.class#ErrorController#handleFault#(Lorg/apache/cxf/interceptor/Fault;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;" name="handleFault( org.apache.cxf.interceptor.Fault, javax.servlet.http.HttpServletResponse )" />
+					<Item itemRef="9" id="ErrorController.class#ErrorController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="10" id="ErrorController.class#ErrorController#handleRequest#(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;" name="handleRequest( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" />
+					<Item itemRef="11" id="ErrorController.class#ErrorController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="12" id="ErrorController.class#ErrorController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="13" id="ErrorController.class#ErrorController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="14" id="ErrorController.class#ErrorController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="15" id="ErrorController.class#ErrorController#&lt;init>#()V" name="ErrorController()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="62" hashes="0" />
+				<StatCvg itemRef="3" elems="24" hashes="0" />
+				<StatCvg itemRef="4" elems="24" hashes="0" />
+				<StatCvg itemRef="5" elems="24" hashes="0" />
+				<StatCvg itemRef="6" elems="24" hashes="0" />
+				<StatCvg itemRef="7" elems="24" hashes="0" />
+				<StatCvg itemRef="8" elems="53 54 55 56" hashes="0 0 0 0" />
+				<StatCvg itemRef="9" elems="24" hashes="0" />
+				<StatCvg itemRef="10" elems="32 33 34 35 36 37 38 39 40 41 43 44 46 48" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="11" elems="24" hashes="0" />
+				<StatCvg itemRef="12" elems="24" hashes="0" />
+				<StatCvg itemRef="13" elems="24" hashes="0" />
+				<StatCvg itemRef="14" elems="27" hashes="0" />
+				<StatCvg itemRef="15" elems="26" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="3" elemRefs="32 33 34 38 40 43 44 46 48" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="32">
+			<Stats>
+				<Item itemRef="1" id="IndexController.class#IndexController" name="IndexController">
+					<Item itemRef="2" id="IndexController.class#IndexController#setCustomRamlGenerator#(Lcom/parasoft/parabank/util/CustomRamlGenerator;)V" name="setCustomRamlGenerator( com.parasoft.parabank.util.CustomRamlGenerator )" />
+					<Item itemRef="3" id="IndexController.class#IndexController#setNewsManager#(Lcom/parasoft/parabank/domain/logic/NewsManager;)V" name="setNewsManager( com.parasoft.parabank.domain.logic.NewsManager )" />
+					<Item itemRef="4" id="IndexController.class#IndexController#getCustomRamlGenerator#()Lcom/parasoft/parabank/util/CustomRamlGenerator;" name="getCustomRamlGenerator()" />
+					<Item itemRef="5" id="IndexController.class#IndexController#&lt;init>#()V" name="IndexController()" />
+					<Item itemRef="6" id="IndexController.class#IndexController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="7" id="IndexController.class#IndexController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="8" id="IndexController.class#IndexController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="9" id="IndexController.class#IndexController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="10" id="IndexController.class#IndexController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="11" id="IndexController.class#IndexController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="12" id="IndexController.class#IndexController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="13" id="IndexController.class#IndexController#handleRequest#(Ljavax/servlet/http/HttpSession;)Lorg/springframework/web/servlet/ModelAndView;" name="handleRequest( javax.servlet.http.HttpSession )" />
+					<Item itemRef="14" id="IndexController.class#IndexController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="15" id="IndexController.class#IndexController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="16" id="IndexController.class#IndexController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="17" id="IndexController.class#IndexController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="108 109" hashes="0 0" />
+				<StatCvg itemRef="3" elems="119 120" hashes="0 0" />
+				<StatCvg itemRef="4" elems="51" hashes="0" />
+				<StatCvg itemRef="5" elems="31" hashes="0" />
+				<StatCvg itemRef="6" elems="29" hashes="0" />
+				<StatCvg itemRef="7" elems="94" hashes="0" />
+				<StatCvg itemRef="8" elems="29" hashes="0" />
+				<StatCvg itemRef="9" elems="29" hashes="0" />
+				<StatCvg itemRef="10" elems="115 116" hashes="0 0" />
+				<StatCvg itemRef="11" elems="29" hashes="0" />
+				<StatCvg itemRef="12" elems="32" hashes="0" />
+				<StatCvg itemRef="13" elems="56 63 64 67 69 71 72 74 75 76 77 78 80 81 84 85 88" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="14" elems="29" hashes="0" />
+				<StatCvg itemRef="15" elems="29" hashes="0" />
+				<StatCvg itemRef="16" elems="29" hashes="0" />
+				<StatCvg itemRef="17" elems="29" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="2 1" elemRefs="56 63 64 67 69 74 75 76 77 78 85 88" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="33">
+			<Stats>
+				<Item itemRef="1" id="LoginController.class#LoginController" name="LoginController">
+					<Item itemRef="2" id="LoginController.class#LoginController#&lt;init>#()V" name="LoginController()" />
+					<Item itemRef="3" id="LoginController.class#LoginController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="4" id="LoginController.class#LoginController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="5" id="LoginController.class#LoginController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="6" id="LoginController.class#LoginController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="7" id="LoginController.class#LoginController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="8" id="LoginController.class#LoginController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="9" id="LoginController.class#LoginController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="10" id="LoginController.class#LoginController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="11" id="LoginController.class#LoginController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="12" id="LoginController.class#LoginController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="13" id="LoginController.class#LoginController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="14" id="LoginController.class#LoginController#handleRequest#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/servlet/http/HttpSession;)Lorg/springframework/web/servlet/ModelAndView;" name="handleRequest( java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.http.HttpSession )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="26" hashes="0" />
+				<StatCvg itemRef="3" elems="27" hashes="0" />
+				<StatCvg itemRef="4" elems="24" hashes="0" />
+				<StatCvg itemRef="5" elems="24" hashes="0" />
+				<StatCvg itemRef="6" elems="24" hashes="0" />
+				<StatCvg itemRef="7" elems="24" hashes="0" />
+				<StatCvg itemRef="8" elems="24" hashes="0" />
+				<StatCvg itemRef="9" elems="83 84" hashes="0 0" />
+				<StatCvg itemRef="10" elems="24" hashes="0" />
+				<StatCvg itemRef="11" elems="24" hashes="0" />
+				<StatCvg itemRef="12" elems="24" hashes="0" />
+				<StatCvg itemRef="13" elems="24" hashes="0" />
+				<StatCvg itemRef="14" elems="40 41 42 43 44 46 50 51 52 55 57 59 60 61 64 65 69 70 73 75" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="2" elemRefs="40 41 42 50 55 57 59 64 65 69 75" />
+					<CtxCvg testRefs="3" elemRefs="40 41 42 43 46 50 55 57 59 64 65 69 75" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="34">
+			<Stats>
+				<Item itemRef="1" id="LogoutController.class#LogoutController" name="LogoutController">
+					<Item itemRef="2" id="LogoutController.class#LogoutController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="3" id="LogoutController.class#LogoutController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="4" id="LogoutController.class#LogoutController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="5" id="LogoutController.class#LogoutController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="6" id="LogoutController.class#LogoutController#handleRequest#(Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/web/servlet/ModelAndView;" name="handleRequest( javax.servlet.http.HttpServletRequest )" />
+					<Item itemRef="7" id="LogoutController.class#LogoutController#&lt;init>#()V" name="LogoutController()" />
+					<Item itemRef="8" id="LogoutController.class#LogoutController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="9" id="LogoutController.class#LogoutController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="10" id="LogoutController.class#LogoutController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="11" id="LogoutController.class#LogoutController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="12" id="LogoutController.class#LogoutController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="13" id="LogoutController.class#LogoutController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16" hashes="0" />
+				<StatCvg itemRef="3" elems="16" hashes="0" />
+				<StatCvg itemRef="4" elems="16" hashes="0" />
+				<StatCvg itemRef="5" elems="16" hashes="0" />
+				<StatCvg itemRef="6" elems="22 23 24 25 27 29 34 35 36 38" hashes="0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="7" elems="18" hashes="0" />
+				<StatCvg itemRef="8" elems="16" hashes="0" />
+				<StatCvg itemRef="9" elems="16" hashes="0" />
+				<StatCvg itemRef="10" elems="16" hashes="0" />
+				<StatCvg itemRef="11" elems="52" hashes="0" />
+				<StatCvg itemRef="12" elems="16" hashes="0" />
+				<StatCvg itemRef="13" elems="16" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="2" elemRefs="22 23 24 25 27 29 34 35 36 38" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="35">
+			<Stats>
+				<Item itemRef="1" id="RestServiceProxyController.class#RestServiceProxyController" name="RestServiceProxyController">
+					<Item itemRef="2" id="RestServiceProxyController.class#RestServiceProxyController#setAdminManager#(Lcom/parasoft/parabank/domain/logic/AdminManager;)V" name="setAdminManager( com.parasoft.parabank.domain.logic.AdminManager )" />
+					<Item itemRef="3" id="RestServiceProxyController.class#RestServiceProxyController#createAccount#(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Lcom/parasoft/parabank/domain/Account;" name="createAccount( java.lang.Integer, java.lang.Integer, java.lang.Integer )" />
+					<Item itemRef="4" id="RestServiceProxyController.class#RestServiceProxyController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="5" id="RestServiceProxyController.class#RestServiceProxyController#getCustomer#(Ljava/lang/Integer;)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( java.lang.Integer )" />
+					<Item itemRef="6" id="RestServiceProxyController.class#RestServiceProxyController#setServletContext#(Ljavax/servlet/ServletContext;)V" name="setServletContext( javax.servlet.ServletContext )" />
+					<Item itemRef="7" id="RestServiceProxyController.class#RestServiceProxyController#getAccounts#(Ljava/lang/Integer;)Ljava/util/List;" name="getAccounts( java.lang.Integer )" />
+					<Item itemRef="8" id="RestServiceProxyController.class#RestServiceProxyController#getTransaction#(Ljava/lang/Integer;)Lcom/parasoft/parabank/domain/Transaction;" name="getTransaction( java.lang.Integer )" />
+					<Item itemRef="9" id="RestServiceProxyController.class#RestServiceProxyController#getAccount#(Ljava/lang/Integer;)Lcom/parasoft/parabank/domain/Account;" name="getAccount( java.lang.Integer )" />
+					<Item itemRef="10" id="RestServiceProxyController.class#RestServiceProxyController#getTransactionsByAmount#(Ljava/lang/Integer;Ljava/math/BigDecimal;)Ljava/util/List;" name="getTransactionsByAmount( java.lang.Integer, java.math.BigDecimal )" />
+					<Item itemRef="11" id="RestServiceProxyController.class#RestServiceProxyController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="12" id="RestServiceProxyController.class#RestServiceProxyController#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="13" id="RestServiceProxyController.class#RestServiceProxyController#getTransactionsByMonthAndType#(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;" name="getTransactionsByMonthAndType( java.lang.Integer, java.lang.String, java.lang.String )" />
+					<Item itemRef="14" id="RestServiceProxyController.class#RestServiceProxyController#getSwagger#(Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/http/ResponseEntity;" name="getSwagger( javax.servlet.http.HttpServletRequest )" />
+					<Item itemRef="15" id="RestServiceProxyController.class#RestServiceProxyController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="16" id="RestServiceProxyController.class#RestServiceProxyController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="17" id="RestServiceProxyController.class#RestServiceProxyController#getTransactions#(Ljava/lang/Integer;)Ljava/util/List;" name="getTransactions( java.lang.Integer )" />
+					<Item itemRef="18" id="RestServiceProxyController.class#RestServiceProxyController#billPay#(Ljava/lang/Integer;Ljava/math/BigDecimal;Lcom/parasoft/parabank/domain/Payee;)Lcom/parasoft/parabank/domain/BillPayResult;" name="billPay( java.lang.Integer, java.math.BigDecimal, com.parasoft.parabank.domain.Payee )" />
+					<Item itemRef="19" id="RestServiceProxyController.class#RestServiceProxyController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="20" id="RestServiceProxyController.class#RestServiceProxyController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="21" id="RestServiceProxyController.class#RestServiceProxyController#transfer#(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/math/BigDecimal;)Ljava/lang/String;" name="transfer( java.lang.Integer, java.lang.Integer, java.math.BigDecimal )" />
+					<Item itemRef="22" id="RestServiceProxyController.class#RestServiceProxyController#authenticate#()V" name="authenticate()" />
+					<Item itemRef="23" id="RestServiceProxyController.class#RestServiceProxyController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="24" id="RestServiceProxyController.class#RestServiceProxyController#requestLoan#(Ljava/lang/Integer;Ljava/math/BigDecimal;Ljava/math/BigDecimal;Ljava/lang/Integer;)Lcom/parasoft/parabank/domain/LoanResponse;" name="requestLoan( java.lang.Integer, java.math.BigDecimal, java.math.BigDecimal, java.lang.Integer )" />
+					<Item itemRef="25" id="RestServiceProxyController.class#RestServiceProxyController#updateCustomer#(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" name="updateCustomer( java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String )" />
+					<Item itemRef="26" id="RestServiceProxyController.class#RestServiceProxyController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="27" id="RestServiceProxyController.class#RestServiceProxyController#getTransactionsByToFromDate#(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;" name="getTransactionsByToFromDate( java.lang.Integer, java.lang.String, java.lang.String )" />
+					<Item itemRef="28" id="RestServiceProxyController.class#RestServiceProxyController#&lt;init>#()V" name="RestServiceProxyController()" />
+					<Item itemRef="29" id="RestServiceProxyController.class#RestServiceProxyController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="30" id="RestServiceProxyController.class#RestServiceProxyController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="31" id="RestServiceProxyController.class#RestServiceProxyController#getTransactionsOnDate#(Ljava/lang/Integer;Ljava/lang/String;)Ljava/util/List;" name="getTransactionsOnDate( java.lang.Integer, java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="81 82" hashes="0 0" />
+				<StatCvg itemRef="3" elems="228 230 231 232 234 235 238 239 240 241 242 244" hashes="0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="4" elems="59" hashes="0" />
+				<StatCvg itemRef="5" elems="170 171 173 174 176 177 180 182" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="6" elems="86 87" hashes="0 0" />
+				<StatCvg itemRef="7" elems="91 94 96 97 99 100 101 103 104 106 107" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="378 379 380 381 383 384 387" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="112 113 115 116 118 119 122 124" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="348 349 350 351 353 354 355 356 357 358 361" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="11" elems="59" hashes="0" />
+				<StatCvg itemRef="12" elems="62" hashes="0" />
+				<StatCvg itemRef="13" elems="148 149 151 152 153 155 156 157 158 159 160 163 165" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="14" elems="367 368 369 370 371 372 373" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="15" elems="59" hashes="0" />
+				<StatCvg itemRef="16" elems="77 78" hashes="0 0" />
+				<StatCvg itemRef="17" elems="129 130 132 133 134 136 137 140 142" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="18" elems="270 271 272 273 275 276 279 281" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="19" elems="59" hashes="0" />
+				<StatCvg itemRef="20" elems="59" hashes="0" />
+				<StatCvg itemRef="21" elems="251 252 253 254 256 257 260 262" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="22" elems="392 393 394 395 396 397 398 399 401 402 403 405 406 407 409 410 411 412 413 415 416 417 418 419 420 421 422 423 425 426 427 429 430 431 432 437" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="23" elems="59" hashes="0" />
+				<StatCvg itemRef="24" elems="288 289 290 291 294 295 298 300" hashes="0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="25" elems="197 198 199 200 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 219 221" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="26" elems="59" hashes="0" />
+				<StatCvg itemRef="27" elems="327 328 329 330 332 333 334 335 336 337 338 341" hashes="0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="28" elems="60" hashes="0" />
+				<StatCvg itemRef="29" elems="59" hashes="0" />
+				<StatCvg itemRef="30" elems="59" hashes="0" />
+				<StatCvg itemRef="31" elems="306 307 308 309 311 312 313 314 315 316 319" hashes="0 0 0 0 0 0 0 0 0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="21">
+					<CtxCvg testRefs="3" elemRefs="251 252 253 254 256 260 262" />
+				</DynCvg>
+				<DynCvg itemRef="18">
+					<CtxCvg testRefs="2" elemRefs="270 271 272 273 275 279 281" />
+				</DynCvg>
+				<DynCvg itemRef="22">
+					<CtxCvg testRefs="3 2" elemRefs="392 393 394 395 396 397 398 401 402 405 406 409 437" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3 2" elemRefs="91 94 96 97 99 100 103 104 106 107" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="36">
+			<Stats>
+				<Item itemRef="1" id="TransferController.class#TransferController" name="TransferController">
+					<Item itemRef="2" id="TransferController.class#TransferController#getBankManager#()Lcom/parasoft/parabank/domain/logic/BankManager;" name="getBankManager()" />
+					<Item itemRef="3" id="TransferController.class#TransferController#setCommandName#(Ljava/lang/String;)V" name="setCommandName( java.lang.String )" />
+					<Item itemRef="4" id="TransferController.class#TransferController#getFormView#()Ljava/lang/String;" name="getFormView()" />
+					<Item itemRef="5" id="TransferController.class#TransferController#setValidator#(Lorg/springframework/validation/Validator;)V" name="setValidator( org.springframework.validation.Validator )" />
+					<Item itemRef="6" id="TransferController.class#TransferController#getCustomerId#(Lcom/parasoft/parabank/web/UserSession;)I" name="getCustomerId( com.parasoft.parabank.web.UserSession )" />
+					<Item itemRef="7" id="TransferController.class#TransferController#getValidator#()Lorg/springframework/validation/Validator;" name="getValidator()" />
+					<Item itemRef="8" id="TransferController.class#TransferController#getCommandName#()Ljava/lang/String;" name="getCommandName()" />
+					<Item itemRef="9" id="TransferController.class#TransferController#setCommandClass#(Ljava/lang/Class;)V" name="setCommandClass( java.lang.Class )" />
+					<Item itemRef="10" id="TransferController.class#TransferController#setApplicationContext#(Lorg/springframework/context/ApplicationContext;)V" name="setApplicationContext( org.springframework.context.ApplicationContext )" />
+					<Item itemRef="11" id="TransferController.class#TransferController#getApplicationContext#()Lorg/springframework/context/ApplicationContext;" name="getApplicationContext()" />
+					<Item itemRef="12" id="TransferController.class#TransferController#setFormView#(Ljava/lang/String;)V" name="setFormView( java.lang.String )" />
+					<Item itemRef="13" id="TransferController.class#TransferController#&lt;init>#()V" name="TransferController()" />
+					<Item itemRef="14" id="TransferController.class#TransferController#setAccessModeController#(Lcom/parasoft/parabank/util/AccessModeController;)V" name="setAccessModeController( com.parasoft.parabank.util.AccessModeController )" />
+					<Item itemRef="15" id="TransferController.class#TransferController#getAccountIds#(Lcom/parasoft/parabank/web/UserSession;)Ljava/util/List;" name="getAccountIds( com.parasoft.parabank.web.UserSession )" />
+					<Item itemRef="16" id="TransferController.class#TransferController#getTransferForm#(Lorg/springframework/ui/Model;)Lorg/springframework/web/servlet/ModelAndView;" name="getTransferForm( org.springframework.ui.Model )" />
+					<Item itemRef="17" id="TransferController.class#TransferController#getCommandClass#()Ljava/lang/Class;" name="getCommandClass()" />
+					<Item itemRef="18" id="TransferController.class#TransferController#setAdminManager#(Lcom/parasoft/parabank/domain/logic/AdminManager;)V" name="setAdminManager( com.parasoft.parabank.domain.logic.AdminManager )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="28" hashes="0" />
+				<StatCvg itemRef="3" elems="84 85" hashes="0 0" />
+				<StatCvg itemRef="4" elems="28" hashes="0" />
+				<StatCvg itemRef="5" elems="97 98" hashes="0 0" />
+				<StatCvg itemRef="6" elems="55" hashes="0" />
+				<StatCvg itemRef="7" elems="28" hashes="0" />
+				<StatCvg itemRef="8" elems="28" hashes="0" />
+				<StatCvg itemRef="9" elems="77 78" hashes="0 0" />
+				<StatCvg itemRef="10" elems="28" hashes="0" />
+				<StatCvg itemRef="11" elems="28" hashes="0" />
+				<StatCvg itemRef="12" elems="91 92" hashes="0 0" />
+				<StatCvg itemRef="13" elems="31" hashes="0" />
+				<StatCvg itemRef="14" elems="66 67" hashes="0 0" />
+				<StatCvg itemRef="15" elems="43 44 46 47 48 49 50" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="16" elems="60 61" hashes="0 0" />
+				<StatCvg itemRef="17" elems="28" hashes="0" />
+				<StatCvg itemRef="18" elems="70 71" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="3" elemRefs="43 44 46 47 48 49 50" />
+				</DynCvg>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="17">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="3" elemRefs="55" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="16">
+					<CtxCvg testRefs="3" elemRefs="60 61" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="3" elemRefs="28" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="37">
+			<Stats>
+				<Item itemRef="1" id="BillPayForm.class#BillPayForm" name="BillPayForm">
+					<Item itemRef="2" id="BillPayForm.class#BillPayForm#getAmount#()Ljava/math/BigDecimal;" name="getAmount()" />
+					<Item itemRef="3" id="BillPayForm.class#BillPayForm#setVerifyAccount#(Ljava/lang/Integer;)V" name="setVerifyAccount( java.lang.Integer )" />
+					<Item itemRef="4" id="BillPayForm.class#BillPayForm#&lt;init>#()V" name="BillPayForm()" />
+					<Item itemRef="5" id="BillPayForm.class#BillPayForm#getVerifyAccount#()Ljava/lang/Integer;" name="getVerifyAccount()" />
+					<Item itemRef="6" id="BillPayForm.class#BillPayForm#getFromAccountId#()I" name="getFromAccountId()" />
+					<Item itemRef="7" id="BillPayForm.class#BillPayForm#setPayee#(Lcom/parasoft/parabank/domain/Payee;)V" name="setPayee( com.parasoft.parabank.domain.Payee )" />
+					<Item itemRef="8" id="BillPayForm.class#BillPayForm#getPayee#()Lcom/parasoft/parabank/domain/Payee;" name="getPayee()" />
+					<Item itemRef="9" id="BillPayForm.class#BillPayForm#setAmount#(Ljava/math/BigDecimal;)V" name="setAmount( java.math.BigDecimal )" />
+					<Item itemRef="10" id="BillPayForm.class#BillPayForm#setFromAccountId#(I)V" name="setFromAccountId( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="33" hashes="0" />
+				<StatCvg itemRef="3" elems="29 30" hashes="0 0" />
+				<StatCvg itemRef="4" elems="10" hashes="0" />
+				<StatCvg itemRef="5" elems="25" hashes="0" />
+				<StatCvg itemRef="6" elems="41" hashes="0" />
+				<StatCvg itemRef="7" elems="21 22" hashes="0 0" />
+				<StatCvg itemRef="8" elems="17" hashes="0" />
+				<StatCvg itemRef="9" elems="37 38" hashes="0 0" />
+				<StatCvg itemRef="10" elems="45 46" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="2" elemRefs="10" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="38">
+			<Stats>
+				<Item itemRef="1" id="TransferForm.class#TransferForm" name="TransferForm">
+					<Item itemRef="2" id="TransferForm.class#TransferForm#getToAccountId#()I" name="getToAccountId()" />
+					<Item itemRef="3" id="TransferForm.class#TransferForm#setAmount#(Ljava/math/BigDecimal;)V" name="setAmount( java.math.BigDecimal )" />
+					<Item itemRef="4" id="TransferForm.class#TransferForm#setToAccountId#(I)V" name="setToAccountId( int )" />
+					<Item itemRef="5" id="TransferForm.class#TransferForm#getAmount#()Ljava/math/BigDecimal;" name="getAmount()" />
+					<Item itemRef="6" id="TransferForm.class#TransferForm#getFromAccountId#()I" name="getFromAccountId()" />
+					<Item itemRef="7" id="TransferForm.class#TransferForm#&lt;init>#()V" name="TransferForm()" />
+					<Item itemRef="8" id="TransferForm.class#TransferForm#setFromAccountId#(I)V" name="setFromAccountId( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="30" hashes="0" />
+				<StatCvg itemRef="3" elems="18 19" hashes="0 0" />
+				<StatCvg itemRef="4" elems="34 35" hashes="0 0" />
+				<StatCvg itemRef="5" elems="14" hashes="0" />
+				<StatCvg itemRef="6" elems="22" hashes="0" />
+				<StatCvg itemRef="7" elems="8" hashes="0" />
+				<StatCvg itemRef="8" elems="26 27" hashes="0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="3" elemRefs="8" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="39">
+			<Stats>
+				<Item itemRef="1" id="AdminManagerImpl.class#AdminManagerImpl" name="AdminManagerImpl">
+					<Item itemRef="2" id="AdminManagerImpl.class#AdminManagerImpl#cleanDB#()V" name="cleanDB()" />
+					<Item itemRef="3" id="AdminManagerImpl.class#AdminManagerImpl#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="4" id="AdminManagerImpl.class#AdminManagerImpl#populateAdminForm#(Lcom/parasoft/parabank/web/form/AdminForm;)Lcom/parasoft/parabank/web/form/AdminForm;" name="populateAdminForm( com.parasoft.parabank.web.form.AdminForm )" />
+					<Item itemRef="5" id="AdminManagerImpl.class#AdminManagerImpl#startupJmsListener#()V" name="startupJmsListener()" />
+					<Item itemRef="6" id="AdminManagerImpl.class#AdminManagerImpl#setJmsListener#(Lorg/springframework/jms/listener/AbstractJmsListeningContainer;)V" name="setJmsListener( org.springframework.jms.listener.AbstractJmsListeningContainer )" />
+					<Item itemRef="7" id="AdminManagerImpl.class#AdminManagerImpl#getJmsListener#()Lorg/springframework/jms/listener/AbstractJmsListeningContainer;" name="getJmsListener()" />
+					<Item itemRef="8" id="AdminManagerImpl.class#AdminManagerImpl#setAdminDao#(Lcom/parasoft/parabank/dao/AdminDao;)V" name="setAdminDao( com.parasoft.parabank.dao.AdminDao )" />
+					<Item itemRef="9" id="AdminManagerImpl.class#AdminManagerImpl#isJmsListenerRunning#()Z" name="isJmsListenerRunning()" />
+					<Item itemRef="10" id="AdminManagerImpl.class#AdminManagerImpl#setParameter#(Ljava/lang/String;Ljava/lang/String;)V" name="setParameter( java.lang.String, java.lang.String )" />
+					<Item itemRef="11" id="AdminManagerImpl.class#AdminManagerImpl#&lt;init>#()V" name="AdminManagerImpl()" />
+					<Item itemRef="12" id="AdminManagerImpl.class#AdminManagerImpl#getParameter#(Ljava/lang/String;)Ljava/lang/String;" name="getParameter( java.lang.String )" />
+					<Item itemRef="13" id="AdminManagerImpl.class#AdminManagerImpl#getParameters#()Ljava/util/Map;" name="getParameters()" />
+					<Item itemRef="14" id="AdminManagerImpl.class#AdminManagerImpl#initializeDB#()V" name="initializeDB()" />
+					<Item itemRef="15" id="AdminManagerImpl.class#AdminManagerImpl#shutdownJmsListener#()V" name="shutdownJmsListener()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="34 35" hashes="0 0" />
+				<StatCvg itemRef="3" elems="19" hashes="0" />
+				<StatCvg itemRef="4" elems="94 95 96" hashes="0 0 0" />
+				<StatCvg itemRef="5" elems="137 138 139" hashes="0 0 0" />
+				<StatCvg itemRef="6" elems="106 107" hashes="0 0" />
+				<StatCvg itemRef="7" elems="49" hashes="0" />
+				<StatCvg itemRef="8" elems="101 102" hashes="0 0" />
+				<StatCvg itemRef="9" elems="89" hashes="0" />
+				<StatCvg itemRef="10" elems="116 117" hashes="0 0" />
+				<StatCvg itemRef="11" elems="18" hashes="0" />
+				<StatCvg itemRef="12" elems="60 61 62 63" hashes="0 0 0 0" />
+				<StatCvg itemRef="13" elems="74" hashes="0" />
+				<StatCvg itemRef="14" elems="84 85" hashes="0 0" />
+				<StatCvg itemRef="15" elems="126 127 128" hashes="0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="3 2" elemRefs="60" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="40">
+			<Stats>
+				<Item itemRef="1" id="BankManagerImpl.class#BankManagerImpl" name="BankManagerImpl">
+					<Item itemRef="2" id="BankManagerImpl.class#BankManagerImpl#getAccount#(I)Lcom/parasoft/parabank/domain/Account;" name="getAccount( int )" />
+					<Item itemRef="3" id="BankManagerImpl.class#BankManagerImpl#transfer#(IILjava/math/BigDecimal;)V" name="transfer( int, int, java.math.BigDecimal )" />
+					<Item itemRef="4" id="BankManagerImpl.class#BankManagerImpl#setLoanProvider#(Lcom/parasoft/parabank/domain/logic/LoanProvider;)V" name="setLoanProvider( com.parasoft.parabank.domain.logic.LoanProvider )" />
+					<Item itemRef="5" id="BankManagerImpl.class#BankManagerImpl#setPositionDao#(Lcom/parasoft/parabank/dao/PositionDao;)V" name="setPositionDao( com.parasoft.parabank.dao.PositionDao )" />
+					<Item itemRef="6" id="BankManagerImpl.class#BankManagerImpl#getTransaction#(I)Lcom/parasoft/parabank/domain/Transaction;" name="getTransaction( int )" />
+					<Item itemRef="7" id="BankManagerImpl.class#BankManagerImpl#requestLoan#(ILjava/math/BigDecimal;Ljava/math/BigDecimal;I)Lcom/parasoft/parabank/domain/LoanResponse;" name="requestLoan( int, java.math.BigDecimal, java.math.BigDecimal, int )" />
+					<Item itemRef="8" id="BankManagerImpl.class#BankManagerImpl#deposit#(ILjava/math/BigDecimal;Ljava/lang/String;)Lcom/parasoft/parabank/domain/Transaction;" name="deposit( int, java.math.BigDecimal, java.lang.String )" />
+					<Item itemRef="9" id="BankManagerImpl.class#BankManagerImpl#createPosition#(ILjava/lang/String;Ljava/lang/String;ILjava/math/BigDecimal;)Lcom/parasoft/parabank/domain/Position;" name="createPosition( int, java.lang.String, java.lang.String, int, java.math.BigDecimal )" />
+					<Item itemRef="10" id="BankManagerImpl.class#BankManagerImpl#&lt;init>#()V" name="BankManagerImpl()" />
+					<Item itemRef="11" id="BankManagerImpl.class#BankManagerImpl#setTransactionDao#(Lcom/parasoft/parabank/dao/TransactionDao;)V" name="setTransactionDao( com.parasoft.parabank.dao.TransactionDao )" />
+					<Item itemRef="12" id="BankManagerImpl.class#BankManagerImpl#getPositionHistory#(ILjava/util/Date;Ljava/util/Date;)Ljava/util/List;" name="getPositionHistory( int, java.util.Date, java.util.Date )" />
+					<Item itemRef="13" id="BankManagerImpl.class#BankManagerImpl#setAdminDao#(Lcom/parasoft/parabank/dao/AdminDao;)V" name="setAdminDao( com.parasoft.parabank.dao.AdminDao )" />
+					<Item itemRef="14" id="BankManagerImpl.class#BankManagerImpl#createCustomer#(Lcom/parasoft/parabank/domain/Customer;)I" name="createCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="15" id="BankManagerImpl.class#BankManagerImpl#getAccountsForCustomer#(Lcom/parasoft/parabank/domain/Customer;)Ljava/util/List;" name="getAccountsForCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="16" id="BankManagerImpl.class#BankManagerImpl#getPositionsForCustomer#(Lcom/parasoft/parabank/domain/Customer;)Ljava/util/List;" name="getPositionsForCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="17" id="BankManagerImpl.class#BankManagerImpl#withdraw#(ILjava/math/BigDecimal;Ljava/lang/String;)V" name="withdraw( int, java.math.BigDecimal, java.lang.String )" />
+					<Item itemRef="18" id="BankManagerImpl.class#BankManagerImpl#setAccountDao#(Lcom/parasoft/parabank/dao/AccountDao;)V" name="setAccountDao( com.parasoft.parabank.dao.AccountDao )" />
+					<Item itemRef="19" id="BankManagerImpl.class#BankManagerImpl#getCustomer#(I)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( int )" />
+					<Item itemRef="20" id="BankManagerImpl.class#BankManagerImpl#updatePosition#(Lcom/parasoft/parabank/domain/Position;)Z" name="updatePosition( com.parasoft.parabank.domain.Position )" />
+					<Item itemRef="21" id="BankManagerImpl.class#BankManagerImpl#updateCustomer#(Lcom/parasoft/parabank/domain/Customer;)V" name="updateCustomer( com.parasoft.parabank.domain.Customer )" />
+					<Item itemRef="22" id="BankManagerImpl.class#BankManagerImpl#getPosition#(I)Lcom/parasoft/parabank/domain/Position;" name="getPosition( int )" />
+					<Item itemRef="23" id="BankManagerImpl.class#BankManagerImpl#createAccount#(Lcom/parasoft/parabank/domain/Account;I)I" name="createAccount( com.parasoft.parabank.domain.Account, int )" />
+					<Item itemRef="24" id="BankManagerImpl.class#BankManagerImpl#getCustomer#(Ljava/lang/String;)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( java.lang.String )" />
+					<Item itemRef="25" id="BankManagerImpl.class#BankManagerImpl#createTransaction#(Lcom/parasoft/parabank/domain/Account;Lcom/parasoft/parabank/domain/Transaction$TransactionType;Ljava/util/Date;Ljava/math/BigDecimal;Ljava/lang/String;)Lcom/parasoft/parabank/domain/Transaction;" name="createTransaction( com.parasoft.parabank.domain.Account, com.parasoft.parabank.domain.Transaction$TransactionType, java.util.Date, java.math.BigDecimal, java.lang.String )" />
+					<Item itemRef="26" id="BankManagerImpl.class#BankManagerImpl#sellPosition#(IIIILjava/math/BigDecimal;)Ljava/util/List;" name="sellPosition( int, int, int, int, java.math.BigDecimal )" />
+					<Item itemRef="27" id="BankManagerImpl.class#BankManagerImpl#deletePosition#(Lcom/parasoft/parabank/domain/Position;)Z" name="deletePosition( com.parasoft.parabank.domain.Position )" />
+					<Item itemRef="28" id="BankManagerImpl.class#BankManagerImpl#setCustomerDao#(Lcom/parasoft/parabank/dao/CustomerDao;)V" name="setCustomerDao( com.parasoft.parabank.dao.CustomerDao )" />
+					<Item itemRef="29" id="BankManagerImpl.class#BankManagerImpl#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="30" id="BankManagerImpl.class#BankManagerImpl#buyPosition#(IILjava/lang/String;Ljava/lang/String;ILjava/math/BigDecimal;)Ljava/util/List;" name="buyPosition( int, int, java.lang.String, java.lang.String, int, java.math.BigDecimal )" />
+					<Item itemRef="31" id="BankManagerImpl.class#BankManagerImpl#getTransactionsForAccount#(ILcom/parasoft/parabank/domain/TransactionCriteria;)Ljava/util/List;" name="getTransactionsForAccount( int, com.parasoft.parabank.domain.TransactionCriteria )" />
+					<Item itemRef="32" id="BankManagerImpl.class#BankManagerImpl#getCustomer#(Ljava/lang/String;Ljava/lang/String;)Lcom/parasoft/parabank/domain/Customer;" name="getCustomer( java.lang.String, java.lang.String )" />
+					<Item itemRef="33" id="BankManagerImpl.class#BankManagerImpl#getTransactionsForAccount#(Lcom/parasoft/parabank/domain/Account;)Ljava/util/List;" name="getTransactionsForAccount( com.parasoft.parabank.domain.Account )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="165" hashes="0" />
+				<StatCvg itemRef="3" elems="376 377 378" hashes="0 0 0" />
+				<StatCvg itemRef="4" elems="358 359" hashes="0 0" />
+				<StatCvg itemRef="5" elems="362 363" hashes="0 0" />
+				<StatCvg itemRef="6" elems="249" hashes="0" />
+				<StatCvg itemRef="7" elems="284 285 286 287 288 290 292 293 294 295 296 297 299 300 301 303 304 305 306 307 308 309 310 313" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="8" elems="145 147 148 149 151 152 153 154 155" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="9" elems="106 107 108 109 110 111 112" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="10" elems="29" hashes="0" />
+				<StatCvg itemRef="11" elems="366 367" hashes="0 0" />
+				<StatCvg itemRef="12" elems="227" hashes="0" />
+				<StatCvg itemRef="13" elems="348 349" hashes="0 0" />
+				<StatCvg itemRef="14" elems="86 87 88 89 90 91 92 93 95" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="15" elems="175" hashes="0" />
+				<StatCvg itemRef="16" elems="239" hashes="0" />
+				<StatCvg itemRef="17" elems="409 411 412 413 415 416 417 418 419" hashes="0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="18" elems="344 345" hashes="0 0" />
+				<StatCvg itemRef="19" elems="185" hashes="0" />
+				<StatCvg itemRef="20" elems="397" hashes="0" />
+				<StatCvg itemRef="21" elems="387 388" hashes="0 0" />
+				<StatCvg itemRef="22" elems="217" hashes="0" />
+				<StatCvg itemRef="23" elems="72 74 76" hashes="0 0 0" />
+				<StatCvg itemRef="24" elems="195" hashes="0" />
+				<StatCvg itemRef="25" elems="117 118 119 120 121 122 123" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="26" elems="324 326 327 328 330 331 332 333 334 336 337 338 340" hashes="0 0 0 0 0 0 0 0 0 0 0 0 0" />
+				<StatCvg itemRef="27" elems="133" hashes="0" />
+				<StatCvg itemRef="28" elems="354 355" hashes="0 0" />
+				<StatCvg itemRef="29" elems="30" hashes="0" />
+				<StatCvg itemRef="30" elems="53 54 56 57 58 60 62" hashes="0 0 0 0 0 0 0" />
+				<StatCvg itemRef="31" elems="272" hashes="0" />
+				<StatCvg itemRef="32" elems="207" hashes="0" />
+				<StatCvg itemRef="33" elems="260" hashes="0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="25">
+					<CtxCvg testRefs="3 2" elemRefs="117 118 119 120 121 122 123" />
+				</DynCvg>
+				<DynCvg itemRef="32">
+					<CtxCvg testRefs="3 2" elemRefs="207" />
+				</DynCvg>
+				<DynCvg itemRef="17">
+					<CtxCvg testRefs="3 2" elemRefs="409 411 412 413 415 416 417 418 419" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="3 2" elemRefs="175" />
+				</DynCvg>
+				<DynCvg itemRef="19">
+					<CtxCvg testRefs="3 2" elemRefs="185" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="3" elemRefs="376 377 378" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="3" elemRefs="145 147 148 149 151 152 153 154 155" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="41">
+			<Stats>
+				<Item itemRef="1" id="NewsManagerImpl.class#NewsManagerImpl" name="NewsManagerImpl">
+					<Item itemRef="2" id="NewsManagerImpl.class#NewsManagerImpl#getNews#()Ljava/util/Map;" name="getNews()" />
+					<Item itemRef="3" id="NewsManagerImpl.class#NewsManagerImpl#getLatestNews#()Ljava/util/Map;" name="getLatestNews()" />
+					<Item itemRef="4" id="NewsManagerImpl.class#NewsManagerImpl#&lt;init>#(Lcom/parasoft/parabank/dao/NewsDao;)V" name="NewsManagerImpl( com.parasoft.parabank.dao.NewsDao )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="41" hashes="0" />
+				<StatCvg itemRef="3" elems="30 31" hashes="0 0" />
+				<StatCvg itemRef="4" elems="19 20 21" hashes="0 0 0" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="2 1" elemRefs="30 31" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>
