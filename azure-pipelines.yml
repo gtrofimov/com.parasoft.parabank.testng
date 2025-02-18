@@ -7,6 +7,9 @@
 trigger:
 - main
 
+variables:
+- name: selenic-home
+  value: C:\\Parasoft-packages\\parasoft_selenic_2024.1.0 
 
 pool: 
  name: Default
@@ -19,8 +22,8 @@ steps:
     script: |
       echo "Run Selenium Tests"
       :: mvn clean test
-      mvn clean test -DargLine=-javaagent:"C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
-      java -jar "C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_analyzer.jar"
+      mvn clean test -DargLine=-javaagent:"$(selenic-home)\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
+      java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report/report.html
 
 - task: PublishTestResults@2
   inputs:
@@ -30,4 +33,4 @@ steps:
 - task: PublishHtmlReport@1
   inputs:
     tabName: 'Selenic HMTL Report'
-    reportDir: '.'
+    reportDir: 'selenic-report'
