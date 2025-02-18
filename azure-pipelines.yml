@@ -13,17 +13,8 @@ pool:
   - Agent.Name -equals SPIDERMAN
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-
 - task: CmdLine@2
   inputs:
     script: |
-      echo "Run Selenium Tests"
-      
-      mvn clean test
+      echo "Run Selenium Tests"      
+      mvn clean test -DargLine=-javaagent:"C:\\Parasoft-packages\\parasoft_selenic_2024.1.0\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
