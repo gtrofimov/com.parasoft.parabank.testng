@@ -1,0 +1,37 @@
+# Starter pipeline
+
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+variables:
+- name: selenic-home
+  value: C:\\Parasoft-packages\\parasoft_selenic_2024.1.0 
+
+pool: 
+ name: Default
+ demands:
+  - Agent.Name -equals SPIDERMAN
+
+steps:
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo "Run Selenium Tests"
+      :: mvn clean test
+      mvn clean test -DargLine=-javaagent:"$(selenic-home)\\selenic_agent.jar"=captureDom=true,selfHealing=true -DsuiteXmlFiles=testng.xml
+      java -jar "$(selenic-home)\\selenic_analyzer.jar" -report selenic-report.html
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/junitreports/TEST-*.xml'
+
+- task: PublishHtmlReport@1
+  displayName: 'Publish HTML Report'
+  inputs:
+    tabName: 'Selenic HTML Report'
+    reportDir: 'selenic-report.html'
