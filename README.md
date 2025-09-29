@@ -9,7 +9,7 @@ The following sample priject users Maven/TetsNg to run a Selenium test against P
 1. Clone the repository into the local instance.
 
 ```sh
-git clone https://github.com/gtrofimov/com.parasoft.parabank.testng.git`
+git clone https://github.com/gtrofimov/com.parasoft.parabank.testng.git
 cd com.parasoft.parabnk.testng
 ```
 
@@ -21,5 +21,6 @@ mvn clean test
 
 3. Run tests with Selenic
 //TODO
+
 
 
