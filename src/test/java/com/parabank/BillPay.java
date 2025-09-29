@@ -25,7 +25,7 @@ public class BillPay {
 	 * Use -DPARABANK_BASE_URL=http://localhost:8080 from command line
 	 * or use System.setProperty("PARABANK_BASE_URL", "http://localhost:8080") to change base URL at run time.
 	 */
-	private static final String PARABANK_BASE_URL = "http://gamora.parasoft.com:8091";
+	private static final String PARABANK_BASE_URL = "http://parabank.parasoft.com";
 
 	private WebDriver driver;
 
